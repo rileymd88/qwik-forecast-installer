@@ -1,0 +1,359 @@
+2019-08-27 11:44:41,124 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:44:41,294 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:44:41,309 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:44:41,412 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:48:48,419 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:48:48,534 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:48:48,538 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:48:48,647 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:49:33,336 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:49:33,548 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:49:33,551 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:49:33,867 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 11:52:22,823 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 11:52:22,832 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 11:54:25,718 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:54:25,755 - ERROR - _server : 411 - Exception iterating responses: cannot do slice indexing on <class 'pandas.core.indexes.range.RangeIndex'> with these indexers [-12.0] of <class 'float'>
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 245, in _prophet
+    dataFrame.drop(dataFrame.tail(forecastPeriods).index, inplace=True)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4029, in tail
+    return self.iloc[-n:]
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2080, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2048, in _get_slice_axis
+    slice_obj = self._convert_slice_indexer(slice_obj, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 266, in _convert_slice_indexer
+    return ax._convert_slice_indexer(key, kind=self.name)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 1690, in _convert_slice_indexer
+    return slice(self._validate_indexer('slice', key.start, kind),
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 4128, in _validate_indexer
+    self._invalid_indexer(form, key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 1848, in _invalid_indexer
+    kind=type(key)))
+TypeError: cannot do slice indexing on <class 'pandas.core.indexes.range.RangeIndex'> with these indexers [-12.0] of <class 'float'>
+2019-08-27 11:54:25,768 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 11:54:25,793 - ERROR - _server : 411 - Exception iterating responses: cannot do slice indexing on <class 'pandas.core.indexes.range.RangeIndex'> with these indexers [-12.0] of <class 'float'>
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 245, in _prophet
+    dataFrame.drop(dataFrame.tail(forecastPeriods).index, inplace=True)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4029, in tail
+    return self.iloc[-n:]
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2080, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2048, in _get_slice_axis
+    slice_obj = self._convert_slice_indexer(slice_obj, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 266, in _convert_slice_indexer
+    return ax._convert_slice_indexer(key, kind=self.name)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 1690, in _convert_slice_indexer
+    return slice(self._validate_indexer('slice', key.start, kind),
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 4128, in _validate_indexer
+    self._invalid_indexer(form, key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 1848, in _invalid_indexer
+    kind=type(key)))
+TypeError: cannot do slice indexing on <class 'pandas.core.indexes.range.RangeIndex'> with these indexers [-12.0] of <class 'float'>
+2019-08-27 12:03:23,552 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 12:03:23,558 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 12:03:51,033 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:03:51,038 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:03:51,041 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:03:51,046 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:03:51,329 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:03:51,351 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:03:51,358 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:03:51,385 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:04:02,349 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:02,355 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:04:02,357 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:02,363 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:04:20,960 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:21,398 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:04:21,402 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:21,781 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:04:31,054 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:31,441 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:04:31,444 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:04:31,778 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:05:33,832 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 12:05:33,840 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 12:06:16,775 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:06:17,499 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:06:17,504 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:06:18,206 - ERROR - _server : 411 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 285, in _prophet
+    forecast = m.predict(future)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 876, in predict
+    intervals = self.predict_uncertainty(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1104, in predict_uncertainty
+    sim_values = self.sample_posterior_predictive(df)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1068, in sample_posterior_predictive
+    sim = self.sample_model(df, seasonal_features, i)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1131, in sample_model
+    trend = self.sample_predictive_trend(df, iteration)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 1173, in sample_predictive_trend
+    n_changes = np.random.binomial(N, prob_change)
+  File "mtrand.pyx", line 3797, in mtrand.RandomState.binomial
+OverflowError: Python int too large to convert to C long
+2019-08-27 12:06:47,863 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 12:06:47,871 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 12:06:56,740 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:07:05,983 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:15:01,018 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:19:38,640 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:20:48,691 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:20:48,697 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:20:48,700 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:20:48,713 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 12:20:56,832 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 12:47:10,480 - INFO - __main__ : 347 - GetCapabilities
+2019-08-27 12:47:10,481 - INFO - __main__ : 370 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-08-27 12:47:10,482 - INFO - __main__ : 370 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 12:50:26,836 - INFO - __main__ : 347 - GetCapabilities
+2019-08-27 12:50:26,837 - INFO - __main__ : 370 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-08-27 12:50:26,837 - INFO - __main__ : 370 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

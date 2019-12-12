@@ -1,0 +1,49 @@
+2018-05-15 16:52:35,222 - INFO - __main__ : 45 - Logging enabled
+2018-05-15 16:52:35,237 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-15 16:54:03,343 - INFO - __main__ : 45 - Logging enabled
+2018-05-15 16:54:03,343 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-15 16:56:54,469 - INFO - __main__ : 45 - Logging enabled
+2018-05-15 16:56:54,485 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-15 16:58:01,360 - INFO - __main__ : 147 - GetCapabilities
+2018-05-15 16:58:01,361 - INFO - __main__ : 170 - Adding to capabilities: ScrapingScript(['score', 'text'])
+2018-05-15 16:59:04,988 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-15 17:01:09,647 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-15 17:01:28,860 - ERROR - _server : 411 - Exception iterating responses: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 102, in _scraping
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "player__name")))
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 401, in _find_element
+    raise e
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-15 17:01:59,723 - INFO - __main__ : 45 - Logging enabled
+2018-05-15 17:01:59,723 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-15 17:02:07,215 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-15 17:02:19,452 - ERROR - _server : 411 - Exception iterating responses: invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 113, in _scraping
+    playerGoalsList.append(int(row.text))
+ValueError: invalid literal for int() with base 10: ''
+2018-05-15 17:05:04,167 - INFO - __main__ : 45 - Logging enabled
+2018-05-15 17:05:04,178 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-15 17:05:30,567 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)

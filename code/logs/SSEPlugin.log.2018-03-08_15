@@ -1,0 +1,5 @@
+2018-03-08 15:49:14,291 - INFO - __main__ : 272 - GetCapabilities
+2018-03-08 15:49:14,291 - INFO - __main__ : 295 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-03-08 15:49:14,291 - INFO - __main__ : 295 - Adding to capabilities: SentimentScript(['id', 'text'])
+2018-03-08 15:49:14,291 - INFO - __main__ : 295 - Adding to capabilities: CleanTweet(['text'])
+2018-03-08 15:49:14,291 - INFO - __main__ : 295 - Adding to capabilities: CleanTweetScript(['id', 'text'])

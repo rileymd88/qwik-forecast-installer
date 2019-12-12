@@ -1,0 +1,100 @@
+2018-05-16 10:53:43,264 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 10:53:43,278 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 10:53:46,925 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-16 10:54:20,487 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _scraping
+    duals = [dualsList[z][i] for z in range(len(dualsList))]
+  File "__main__.py", line 121, in <listcomp>
+    duals = [dualsList[z][i] for z in range(len(dualsList))]
+IndexError: list index out of range
+2018-05-16 11:07:11,215 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:07:11,223 - INFO - __main__ : 261 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:07:17,395 - INFO - __main__ : 201 - ExecuteFunction (functionId: 0)
+2018-05-16 11:08:27,106 - INFO - __main__ : 201 - ExecuteFunction (functionId: 0)
+2018-05-16 11:09:34,138 - INFO - __main__ : 201 - ExecuteFunction (functionId: 0)
+2018-05-16 11:11:55,473 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:11:55,484 - INFO - __main__ : 262 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:12:00,152 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-05-16 11:20:47,816 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:20:47,824 - INFO - __main__ : 266 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:21:08,979 - INFO - __main__ : 206 - ExecuteFunction (functionId: 0)
+2018-05-16 11:21:12,207 - INFO - __main__ : 206 - ExecuteFunction (functionId: 0)
+2018-05-16 11:21:27,953 - ERROR - _server : 411 - Exception iterating responses: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: headless chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 117, in _scraping
+    print(row.find_element_by_class_name("player__name").text)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 398, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 653, in find_element
+    {"using": by, "value": value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: headless chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-16 11:21:30,088 - ERROR - _server : 411 - Exception iterating responses: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: headless chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 117, in _scraping
+    print(row.find_element_by_class_name("player__name").text)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 398, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 653, in find_element
+    {"using": by, "value": value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: headless chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-16 11:25:19,155 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:25:19,163 - INFO - __main__ : 266 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:25:24,950 - INFO - __main__ : 206 - ExecuteFunction (functionId: 0)
+2018-05-16 11:25:42,929 - ERROR - _server : 411 - Exception iterating responses: 'list' object has no attribute 'text'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 117, in _scraping
+    print(row.find_elements_by_class_name("player__name").text)
+AttributeError: 'list' object has no attribute 'text'
+2018-05-16 11:26:29,238 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:26:29,245 - INFO - __main__ : 266 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:26:34,072 - INFO - __main__ : 206 - ExecuteFunction (functionId: 0)
+2018-05-16 11:26:51,900 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 117, in _scraping
+    print(row.find_elements_by_class_name("player__name")[0].text)
+IndexError: list index out of range
+2018-05-16 11:27:23,228 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:27:23,235 - INFO - __main__ : 266 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:27:28,104 - INFO - __main__ : 206 - ExecuteFunction (functionId: 0)
+2018-05-16 11:31:05,429 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:31:05,436 - INFO - __main__ : 268 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:31:11,987 - INFO - __main__ : 208 - ExecuteFunction (functionId: 0)
+2018-05-16 11:36:55,312 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:36:55,321 - INFO - __main__ : 265 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:37:00,569 - INFO - __main__ : 205 - ExecuteFunction (functionId: 0)
+2018-05-16 11:52:04,376 - INFO - __main__ : 45 - Logging enabled
+2018-05-16 11:52:04,385 - INFO - __main__ : 272 - *** Running server in insecure mode on port: 50057 ***
+2018-05-16 11:52:08,971 - INFO - __main__ : 212 - ExecuteFunction (functionId: 0)

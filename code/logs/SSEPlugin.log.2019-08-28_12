@@ -1,0 +1,503 @@
+2019-08-28 10:49:42,636 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 10:49:42,646 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 10:51:23,215 - INFO - __main__ : 398 - GetCapabilities
+2019-08-28 10:51:23,218 - INFO - __main__ : 421 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'max', 'min', 'outliers'])
+2019-08-28 10:51:23,226 - INFO - __main__ : 421 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-28 11:05:29,134 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:05:29,330 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:05:29,333 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:05:29,509 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:25:28,178 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:25:28,184 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:25:39,604 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:25:39,798 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:25:39,810 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:25:40,006 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:27:56,455 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:27:56,457 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 255, in _prophet
+    tmpChangePoint = int([d.numData for d in row.duals][1])
+ValueError: cannot convert float NaN to integer
+2019-08-28 11:27:56,467 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:27:56,469 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 255, in _prophet
+    tmpChangePoint = int([d.numData for d in row.duals][1])
+ValueError: cannot convert float NaN to integer
+2019-08-28 11:28:13,989 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:28:14,216 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:28:14,218 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:28:14,437 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:28:36,861 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:28:37,146 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:28:37,148 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:28:37,386 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-08-28 11:29:43,990 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:29:43,996 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:29:50,497 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:30:55,001 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:30:55,006 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:31:02,745 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:32:52,832 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:32:52,838 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:33:03,535 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:34:12,304 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:34:22,186 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:34:33,315 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:36:06,680 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:36:06,685 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:36:16,958 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:36:17,803 - ERROR - _server : 462 - Exception iterating responses: make_future_dataframe() got an unexpected keyword argument 'growth'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 327, in _prophet
+    future = m.make_future_dataframe(periods=forecastPeriods, freq='MS', growth = 'logistic')
+TypeError: make_future_dataframe() got an unexpected keyword argument 'growth'
+2019-08-28 11:36:17,806 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:36:18,849 - ERROR - _server : 462 - Exception iterating responses: make_future_dataframe() got an unexpected keyword argument 'growth'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 327, in _prophet
+    future = m.make_future_dataframe(periods=forecastPeriods, freq='MS', growth = 'logistic')
+TypeError: make_future_dataframe() got an unexpected keyword argument 'growth'
+2019-08-28 11:36:54,123 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:36:54,133 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:37:05,281 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:37:05,996 - ERROR - _server : 462 - Exception iterating responses: Expected column 'floor'.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 336, in _prophet
+    forecast = m.predict(future)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1172, in predict
+    df = self.setup_dataframe(df.copy())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 273, in setup_dataframe
+    raise ValueError("Expected column 'floor'.")
+ValueError: Expected column 'floor'.
+2019-08-28 11:37:05,999 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-28 11:37:06,737 - ERROR - _server : 462 - Exception iterating responses: Expected column 'floor'.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 336, in _prophet
+    forecast = m.predict(future)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1172, in predict
+    df = self.setup_dataframe(df.copy())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 273, in setup_dataframe
+    raise ValueError("Expected column 'floor'.")
+ValueError: Expected column 'floor'.
+2019-08-28 11:40:11,339 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:40:11,344 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:40:15,875 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-28 11:40:16,699 - ERROR - _server : 462 - Exception iterating responses: Expected column 'floor'.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 337, in _prophet
+    forecast = m.predict(future)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1172, in predict
+    df = self.setup_dataframe(df.copy())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 273, in setup_dataframe
+    raise ValueError("Expected column 'floor'.")
+ValueError: Expected column 'floor'.
+2019-08-28 11:40:16,705 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-28 11:40:17,517 - ERROR - _server : 462 - Exception iterating responses: Expected column 'floor'.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 337, in _prophet
+    forecast = m.predict(future)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1172, in predict
+    df = self.setup_dataframe(df.copy())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 273, in setup_dataframe
+    raise ValueError("Expected column 'floor'.")
+ValueError: Expected column 'floor'.
+2019-08-28 11:42:36,642 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:42:36,648 - INFO - __main__ : 493 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:42:42,149 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:42:42,220 - ERROR - _server : 462 - Exception iterating responses: Capacities must be supplied for logistic growth in column 'cap'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 320, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 279, in setup_dataframe
+    "Capacities must be supplied for logistic growth in "
+ValueError: Capacities must be supplied for logistic growth in column 'cap'
+2019-08-28 11:42:42,224 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:42:42,279 - ERROR - _server : 462 - Exception iterating responses: Capacities must be supplied for logistic growth in column 'cap'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 320, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 279, in setup_dataframe
+    "Capacities must be supplied for logistic growth in "
+ValueError: Capacities must be supplied for logistic growth in column 'cap'
+2019-08-28 11:45:05,983 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:45:05,988 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:45:12,919 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-28 11:45:23,811 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-28 11:45:31,585 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-28 11:50:45,879 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:50:45,889 - INFO - __main__ : 493 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:50:52,322 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:51:02,255 - ERROR - _server : 462 - Exception iterating responses: 'float' object is not iterable
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecast['y'] = forecast['y'].apply(lambda x: [y if y < maxCap else maxCap for y in x])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "__main__.py", line 348, in <lambda>
+    forecast['y'] = forecast['y'].apply(lambda x: [y if y < maxCap else maxCap for y in x])
+TypeError: 'float' object is not iterable
+2019-08-28 11:51:02,262 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:51:12,820 - ERROR - _server : 462 - Exception iterating responses: 'float' object is not iterable
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecast['y'] = forecast['y'].apply(lambda x: [y if y < maxCap else maxCap for y in x])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "__main__.py", line 348, in <lambda>
+    forecast['y'] = forecast['y'].apply(lambda x: [y if y < maxCap else maxCap for y in x])
+TypeError: 'float' object is not iterable
+2019-08-28 11:53:02,072 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:53:02,080 - INFO - __main__ : 493 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:53:18,276 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:53:25,200 - ERROR - _server : 462 - Exception iterating responses: name 'minCap' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 349, in _prophet
+    if minCap is not None:
+NameError: name 'minCap' is not defined
+2019-08-28 11:53:25,203 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:53:32,293 - ERROR - _server : 462 - Exception iterating responses: name 'minCap' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 349, in _prophet
+    if minCap is not None:
+NameError: name 'minCap' is not defined
+2019-08-28 11:53:52,735 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:53:52,744 - INFO - __main__ : 493 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:53:55,345 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:54:02,337 - ERROR - _server : 462 - Exception iterating responses: '>' not supported between instances of 'list' and 'float'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 350, in _prophet
+    forecast['y'] = forecast['y'].apply(lambda x: [x if x > minFloor else minFloor])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "__main__.py", line 350, in <lambda>
+    forecast['y'] = forecast['y'].apply(lambda x: [x if x > minFloor else minFloor])
+TypeError: '>' not supported between instances of 'list' and 'float'
+2019-08-28 11:54:02,344 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:54:09,920 - ERROR - _server : 462 - Exception iterating responses: '>' not supported between instances of 'list' and 'float'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 350, in _prophet
+    forecast['y'] = forecast['y'].apply(lambda x: [x if x > minFloor else minFloor])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "__main__.py", line 350, in <lambda>
+    forecast['y'] = forecast['y'].apply(lambda x: [x if x > minFloor else minFloor])
+TypeError: '>' not supported between instances of 'list' and 'float'
+2019-08-28 11:54:31,286 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:54:31,293 - INFO - __main__ : 493 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:54:40,408 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:54:55,687 - INFO - __main__ : 433 - ExecuteFunction (functionId: 0)
+2019-08-28 11:57:32,944 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:57:32,950 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:57:40,831 - INFO - __main__ : 375 - GetCapabilities
+2019-08-28 11:57:40,837 - INFO - __main__ : 398 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-08-28 11:57:40,842 - INFO - __main__ : 398 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-28 11:58:09,326 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-08-28 11:58:09,328 - ERROR - _server : 462 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 247, in _prophet
+    outliers = [d.strData for d in row.duals][9]
+IndexError: list index out of range
+2019-08-28 11:58:09,331 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-08-28 11:58:09,331 - ERROR - _server : 462 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 247, in _prophet
+    outliers = [d.strData for d in row.duals][9]
+IndexError: list index out of range
+2019-08-28 11:58:44,876 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 11:58:44,885 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 11:58:53,807 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-08-28 11:59:03,701 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-08-28 11:59:36,007 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-08-28 12:00:24,878 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:00:24,885 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:00:31,810 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-08-28 12:01:00,048 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:01:00,059 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:01:02,506 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-08-28 12:03:26,742 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:03:26,750 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:03:34,540 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-08-28 12:03:53,675 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-08-28 12:04:59,480 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:04:59,488 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:05:00,602 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-08-28 12:05:47,327 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:05:47,334 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:05:52,102 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:06:20,686 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:06:25,842 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:06:32,702 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:06:40,409 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:06:45,886 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-08-28 12:07:54,056 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:07:54,066 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:07:58,871 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-08-28 12:10:32,657 - INFO - __main__ : 374 - GetCapabilities
+2019-08-28 12:10:32,658 - INFO - __main__ : 397 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-08-28 12:10:32,667 - INFO - __main__ : 397 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-28 12:10:57,594 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-08-28 12:11:36,741 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:11:36,751 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:11:39,798 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 12:13:39,723 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:13:39,728 - INFO - __main__ : 465 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:13:47,495 - INFO - __main__ : 405 - ExecuteFunction (functionId: 0)
+2019-08-28 12:23:01,153 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:23:01,159 - INFO - __main__ : 466 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:23:11,301 - INFO - __main__ : 406 - ExecuteFunction (functionId: 0)
+2019-08-28 12:24:42,969 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:24:42,974 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:24:46,903 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 12:25:31,934 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:25:31,940 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:25:36,975 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 12:29:46,982 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:29:46,990 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 12:29:50,913 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 12:29:53,716 - ERROR - _server : 462 - Exception iterating responses: name 'set_index' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 321, in _prophet
+    index = set_index('ds')
+NameError: name 'set_index' is not defined
+2019-08-28 12:29:53,726 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 12:29:56,510 - ERROR - _server : 462 - Exception iterating responses: name 'set_index' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 321, in _prophet
+    index = set_index('ds')
+NameError: name 'set_index' is not defined
+2019-08-28 12:30:12,186 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 12:30:12,195 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***

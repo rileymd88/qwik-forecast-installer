@@ -1,0 +1,885 @@
+2019-04-08 14:01:44,931 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:01:44,940 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:02:00,796 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:02:05,716 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:02:53,933 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:02:53,941 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:02:58,570 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-08 14:03:03,036 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:16:13,976 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:16:13,983 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:16:18,298 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:16:23,207 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:16:32,260 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:16:36,494 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:17:19,485 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:17:19,559 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 219, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-08 14:18:07,692 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:18:07,701 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:18:10,866 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:18:15,800 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:18:33,068 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:18:37,187 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:18:59,298 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:18:59,306 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:19:31,900 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:19:50,203 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:20:39,186 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:20:39,193 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:20:51,332 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:20:55,232 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:21:08,945 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:21:12,881 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:21:14,444 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:21:18,309 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:21:22,419 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:21:26,277 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:23:39,445 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:23:42,840 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:26:25,116 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:26:28,695 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:27:43,191 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:27:47,246 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:27:59,445 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:28:03,640 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:28:33,992 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:28:37,653 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:28:47,883 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:28:52,018 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:28:56,157 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:28:56,221 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 219, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-08 14:29:00,650 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:29:04,661 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:32:15,831 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:32:15,841 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:32:20,286 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:32:20,388 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 220, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-08 14:33:33,592 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:33:33,600 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:33:37,183 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:33:37,276 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 220, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-08 14:33:56,793 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:33:56,801 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:33:59,729 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:33:59,838 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 219, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-08 14:35:51,007 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:35:51,014 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:35:57,163 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:35:57,267 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 216, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:36:19,064 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:36:19,072 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:36:22,666 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:36:22,795 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 216, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:36:25,457 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:36:25,537 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 216, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:37:19,606 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:37:19,616 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:37:24,031 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:37:24,297 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:38:09,373 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:38:09,562 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:38:21,848 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:38:22,190 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:38:31,847 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:38:32,106 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:38:48,191 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:38:48,435 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:39:23,666 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:39:23,957 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:39:32,957 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:39:32,969 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:39:34,886 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:39:35,225 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 217, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 14:42:03,967 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:42:03,975 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:42:08,520 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:42:08,962 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 237, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-04-08 14:42:46,079 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:42:46,351 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 237, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-04-08 14:42:49,911 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:42:50,163 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 237, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-04-08 14:43:21,080 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:43:21,335 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 237, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-04-08 14:43:46,992 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:43:47,003 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:43:51,206 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:43:56,272 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:44:41,300 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:44:45,178 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:44:51,394 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:44:55,044 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 14:49:30,566 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:49:30,575 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:49:36,696 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-08 14:49:40,762 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    forecast['ds'] = np.where(forecast['ds'] <= maxDate, 0)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 14:52:35,716 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:52:35,723 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:52:41,514 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-08 14:52:45,610 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    forecast.loc[forecast['ds'] <= maxDate, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 14:53:53,861 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:53:53,870 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:53:57,164 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 14:54:01,223 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 293, in _prophet
+    forecast.loc[forecast['ds'] <= maxDate, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 14:56:53,729 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:56:53,736 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:56:57,624 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 14:57:01,718 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 293, in _prophet
+    forecast['yhat'] = np.where(forecast['ds'] <= maxDate, 0)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 14:58:18,948 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 14:58:18,955 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 14:58:24,198 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 14:58:28,292 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 297, in _prophet
+    forecast.loc[forecast['ds'] <= maxDate, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:00:23,426 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:00:23,435 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:00:28,859 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:00:32,955 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 298, in _prophet
+    forecast.loc[forecast['ds'] <= maxDate, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:01:05,912 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:01:05,918 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:01:11,410 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 15:01:15,528 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:02:44,708 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:02:44,716 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:02:48,496 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 15:06:06,522 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:06:06,534 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:06:34,179 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:06:37,883 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 294, in _prophet
+    forecast['yhat_new'] = np.where(forecast['ds'] <= maxDate, 0)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:08:06,193 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:08:06,201 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:08:12,784 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:08:16,697 - ERROR - _server : 411 - Exception iterating responses: <class 'int'> type object 1990
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    forecast.loc[forecast['ds'] > 1990, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 133, in wrapper
+    (type(other), str(other)))
+TypeError: <class 'int'> type object 1990
+2019-04-08 15:08:30,231 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:08:30,240 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:08:37,117 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:08:40,992 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    forecast.loc[forecast['ds'] > maxDate, 'yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:10:04,097 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:10:04,105 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:10:09,544 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 15:10:13,368 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:11:50,894 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:11:50,902 - INFO - __main__ : 443 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:11:57,084 - INFO - __main__ : 383 - ExecuteFunction (functionId: 0)
+2019-04-08 15:14:07,062 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:14:07,069 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:14:23,156 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:14:27,123 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    mask = forecast.ds <= maxDate
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:15:38,408 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:15:38,419 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:15:44,098 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-04-08 15:15:47,912 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    mask = forecast.ds <= maxDate
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:16:32,448 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:16:32,457 - INFO - __main__ : 439 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:16:44,473 - INFO - __main__ : 379 - ExecuteFunction (functionId: 0)
+2019-04-08 15:16:48,261 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 289, in _prophet
+    forecast['yhat'] = np.where(forecast.ds > maxDate, 0, df.yhat)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:17:47,932 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:17:47,939 - INFO - __main__ : 439 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:17:55,123 - INFO - __main__ : 379 - ExecuteFunction (functionId: 0)
+2019-04-08 15:17:58,911 - ERROR - _server : 411 - Exception iterating responses: Can only compare identically-labeled Series objects
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 289, in _prophet
+    forecast['yhat'] = np.where(forecast.ds > maxDate, 0, forecast.yhat)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1187, in wrapper
+    raise ValueError("Can only compare identically-labeled "
+ValueError: Can only compare identically-labeled Series objects
+2019-04-08 15:22:15,452 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:22:15,458 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:22:24,182 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:22:27,955 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    if forecast.at[index, 'ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:22:54,282 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:22:54,290 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:23:06,130 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:23:09,943 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    if forecast.at[index, 'ds'] < maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:25:21,894 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:25:23,513 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    if forecast.at[index, 'ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:25:23,520 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:25:25,090 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    if forecast.at[index, 'ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:25:39,768 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:25:39,777 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:25:49,652 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:25:51,249 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:26:01,224 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:26:01,224 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:26:10,336 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:26:10,337 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:27:53,867 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:27:53,874 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:28:06,573 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-08 15:28:10,378 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 292, in _prophet
+    if maxDate >= forecast.at[index, 'ds']:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 15:31:22,893 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:31:22,902 - INFO - __main__ : 435 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:31:29,616 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-08 15:42:21,387 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:42:21,399 - INFO - __main__ : 435 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:42:43,637 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-08 15:43:43,884 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:43:43,892 - INFO - __main__ : 436 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:45:55,715 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 15:46:35,626 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:46:35,634 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:46:43,189 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:47:39,265 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:48:20,722 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 15:48:20,730 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 15:48:32,889 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:48:48,832 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:49:09,397 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:49:45,436 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:50:20,518 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:50:26,731 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:50:43,069 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:50:43,074 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 250, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 15:52:41,283 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:52:51,450 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:53:08,218 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:53:33,880 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:53:38,420 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:53:57,645 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:54:01,141 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:54:29,074 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:54:48,343 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:55:03,964 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:55:19,694 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:55:25,716 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:55:38,600 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:59:17,643 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:59:41,690 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 15:59:52,277 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:00:13,660 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:00:24,114 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:00:32,350 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:00:41,000 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:01:06,919 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:01:14,947 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:01:22,735 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:03:54,300 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:04:45,001 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:06:46,850 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:06:56,074 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:08:55,590 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:09:05,754 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:09:05,771 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 250, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:09:08,978 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:09:08,991 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 250, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:09:12,993 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:09:13,006 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 250, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:10:18,503 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:10:26,022 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:10:39,887 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:11:00,302 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:11:27,471 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:11:35,178 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:11:43,251 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-08 16:12:34,323 - INFO - __main__ : 44 - Logging enabled
+2019-04-08 16:12:34,332 - INFO - __main__ : 436 - *** Running server in insecure mode on port: 50066 ***
+2019-04-08 16:13:01,589 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:14:09,883 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:14:10,000 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 16:14:18,887 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:14:29,455 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:14:37,834 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:15:21,791 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:15:32,885 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:16:36,645 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:17:01,731 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:17:01,739 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:17:03,813 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:17:03,818 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:17:04,865 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:17:04,870 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-04-08 16:18:28,248 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:18:36,632 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:18:49,904 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:21:10,790 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:21:33,496 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:21:33,497 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 16:21:47,292 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:21:59,176 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:22:41,793 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:23:49,693 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:23:49,694 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 16:23:51,892 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:23:51,894 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 16:23:53,830 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:23:53,831 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-08 16:24:18,117 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:24:26,941 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:24:37,100 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:24:45,942 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-08 16:24:53,703 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)

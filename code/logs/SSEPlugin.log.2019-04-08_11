@@ -1,0 +1,20 @@
+2019-04-08 11:21:38,966 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-08 11:21:45,202 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-08 11:23:12,554 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-08 11:23:16,882 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

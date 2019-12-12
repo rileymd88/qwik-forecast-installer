@@ -1,0 +1,26 @@
+2019-08-15 13:57:45,274 - INFO - scripteval : 31 - EvaluateScript: 40+2 (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 13:57:45,296 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 13:58:41,213 - INFO - __main__ : 44 - Logging enabled
+2019-08-15 13:58:41,228 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-08-15 13:58:49,838 - INFO - scripteval : 31 - EvaluateScript: 40+2 (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 13:58:49,840 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 13:59:18,827 - INFO - scripteval : 31 - EvaluateScript: "The answer to the Ultimate Question of Life, the Universe, and Everything" (ArgType.Empty ReturnType.String) FunctionType.Tensor
+2019-08-15 13:59:18,837 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')

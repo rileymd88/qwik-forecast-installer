@@ -1,0 +1,845 @@
+2019-08-27 14:32:54,153 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:37:28,892 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:54:44,214 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:00:03,154 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:06:25,355 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:08:59,155 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:08:59,165 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:08:59,167 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:08:59,183 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:09:12,718 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:09:12,725 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:10:39,387 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:39,395 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:39,397 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:39,406 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:39,606 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:39,622 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:39,624 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:39,631 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:41,722 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:41,731 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:41,734 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:41,747 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:42,458 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:42,470 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:10:42,472 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:10:42,484 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:11:22,899 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:11:22,905 - INFO - __main__ : 445 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:11:25,120 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:11:25,130 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:11:25,132 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:11:25,140 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:11:36,768 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:11:36,775 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:11:36,777 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:11:36,793 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:20:13,357 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 15:23:01,955 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:23:01,962 - INFO - __main__ : 446 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:26:52,886 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:26:52,892 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:26:52,894 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:26:52,900 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:26:55,807 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:26:55,815 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:26:55,817 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:26:55,830 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:27:01,951 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:27:01,964 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:27:01,966 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:27:01,975 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:27:07,864 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:27:22,694 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:27:22,702 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:27:22,704 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:27:22,716 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:29:38,705 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:29:38,714 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:29:38,716 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:29:38,723 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:30:07,668 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:30:07,676 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:30:27,021 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:30:27,034 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:30:27,039 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:30:27,054 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:31:49,879 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:31:49,889 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:32:03,522 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:32:03,530 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:32:03,532 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:32:03,542 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:34:15,844 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:34:15,855 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:34:46,837 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:34:46,881 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:34:46,886 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:34:46,910 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:36:37,738 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:36:37,773 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:36:37,775 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:36:37,797 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:36:41,620 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:36:41,651 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:36:41,652 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:36:41,683 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:00,448 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:00,714 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:00,722 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:00,902 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:02,215 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:02,517 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:02,519 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:02,711 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:03,928 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:04,143 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:04,146 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:04,286 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:11,351 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:11,643 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:11,651 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:11,999 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:42,110 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:42,351 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:42,352 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:42,631 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:48,978 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:49,232 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:49,234 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:49,395 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:57,839 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:58,083 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:37:58,090 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:37:58,422 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:41:23,577 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:41:23,588 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:43:33,142 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:43:33,331 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:43:33,337 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:43:33,621 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:43:43,845 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:43:44,276 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:43:44,278 - INFO - __main__ : 387 - ExecuteFunction (functionId: 0)
+2019-08-27 15:43:44,581 - ERROR - _server : 411 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 235, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 348, in __init__
+    mgr = self._init_dict(data, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 459, in _init_dict
+    return _arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7315, in _arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 7361, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-27 15:44:10,876 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:44:10,885 - INFO - __main__ : 446 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:44:18,562 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:46:22,124 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:46:22,131 - INFO - __main__ : 446 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:46:31,189 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:46:47,689 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:46:47,697 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:46:47,700 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:46:47,718 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-27 15:47:20,306 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:47:34,940 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:50:08,416 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 15:50:08,428 - INFO - __main__ : 446 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 15:50:15,171 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:51:27,461 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:51:27,476 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:51:27,478 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:51:27,485 - ERROR - _server : 411 - Exception iterating responses: year 64322 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 64322 is out of range
+2019-08-27 15:53:19,969 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 15:55:04,642 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 16:10:48,324 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 16:12:59,824 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 16:13:12,579 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 16:14:22,148 - INFO - __main__ : 386 - ExecuteFunction (functionId: 0)
+2019-08-27 16:20:15,540 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 16:20:15,547 - INFO - __main__ : 449 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 16:20:22,771 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:20:40,717 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:20:52,808 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:20:59,289 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:14,462 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:16,617 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:22,484 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:24,648 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:32,309 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:34,431 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:36,460 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:38,431 - ERROR - _server : 411 - Exception iterating responses: 'yhat_low'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 296, in _prophet
+    forecast['y'] = forecast['y'].combine_first(forecast[forecastReturnType])
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+2019-08-27 16:21:38,445 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:40,496 - ERROR - _server : 411 - Exception iterating responses: 'yhat_low'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 296, in _prophet
+    forecast['y'] = forecast['y'].combine_first(forecast[forecastReturnType])
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+2019-08-27 16:21:40,521 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:42,528 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:44,540 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:46,609 - ERROR - _server : 411 - Exception iterating responses: 'yhat_low'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 296, in _prophet
+    forecast['y'] = forecast['y'].combine_first(forecast[forecastReturnType])
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+2019-08-27 16:21:46,615 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:48,514 - ERROR - _server : 411 - Exception iterating responses: 'yhat_low'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 296, in _prophet
+    forecast['y'] = forecast['y'].combine_first(forecast[forecastReturnType])
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+2019-08-27 16:21:55,475 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:57,232 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:21:59,066 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:20,821 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:22,790 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:24,840 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:26,725 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:41,955 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:44,077 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:22:46,100 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:23:36,982 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:23:39,167 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:23:41,437 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:44:46,771 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:44:53,934 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:44:56,900 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:47:32,187 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 16:47:54,096 - INFO - __main__ : 389 - ExecuteFunction (functionId: 0)
+2019-08-27 17:05:11,128 - INFO - __main__ : 351 - GetCapabilities
+2019-08-27 17:05:11,130 - INFO - __main__ : 374 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:05:11,130 - INFO - __main__ : 374 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

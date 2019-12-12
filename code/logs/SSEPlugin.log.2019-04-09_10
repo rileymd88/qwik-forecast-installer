@@ -1,0 +1,24 @@
+2019-04-09 10:25:52,208 - INFO - __main__ : 44 - Logging enabled
+2019-04-09 10:25:52,231 - INFO - __main__ : 435 - *** Running server in insecure mode on port: 50066 ***
+2019-04-09 10:26:10,080 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:26:10,082 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:26:10,083 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:26:10,084 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:26:13,184 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:26:25,936 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:27:50,791 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:28:03,225 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:28:16,201 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:29:39,366 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:29:57,450 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:30:17,006 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:30:27,153 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:30:38,772 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:31:26,066 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:41:04,262 - INFO - __main__ : 337 - GetCapabilities
+2019-04-09 10:41:04,265 - INFO - __main__ : 360 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-09 10:41:04,265 - INFO - __main__ : 360 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-09 10:50:18,472 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-09 10:58:04,043 - INFO - __main__ : 337 - GetCapabilities
+2019-04-09 10:58:04,046 - INFO - __main__ : 360 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-09 10:58:04,049 - INFO - __main__ : 360 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

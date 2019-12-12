@@ -1,0 +1,48 @@
+2018-02-26 14:46:37,642 - INFO - __main__ : 182 - GetCapabilities
+2018-02-26 14:46:37,687 - INFO - __main__ : 205 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 14:46:37,689 - INFO - __main__ : 205 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 14:51:48,403 - INFO - scripteval : 31 - EvaluateScript: _sentiment(args,"all") (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-26 14:51:48,606 - ERROR - _server : 396 - Exception iterating responses: name '_sentiment' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name '_sentiment' is not defined
+2018-02-26 14:53:04,075 - INFO - scripteval : 31 - EvaluateScript: Sentiment(args,"all") (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-26 14:53:04,152 - ERROR - _server : 396 - Exception iterating responses: name 'Sentiment' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name 'Sentiment' is not defined
+2018-02-26 14:55:08,059 - INFO - scripteval : 31 - EvaluateScript: Sentiment(args,"all") (ArgType.String ReturnType.Numeric) FunctionType.Tensor
+2018-02-26 14:55:08,215 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Return type ReturnType.Numeric is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 179, in evaluate
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Return type ReturnType.Numeric is not supported in this plugin.')
+2018-02-26 14:55:14,590 - INFO - scripteval : 31 - EvaluateScript: Sentiment(args,"all") (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-26 14:55:14,778 - ERROR - _server : 396 - Exception iterating responses: name 'Sentiment' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name 'Sentiment' is not defined
+2018-02-26 15:01:01,575 - INFO - __main__ : 44 - Logging enabled
+2018-02-26 15:01:01,591 - INFO - __main__ : 280 - *** Running server in insecure mode on port: 50089 ***

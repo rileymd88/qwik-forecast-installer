@@ -1,0 +1,100 @@
+2018-06-05 11:15:42,006 - INFO - __main__ : 43 - Logging enabled
+2018-06-05 11:15:42,017 - INFO - __main__ : 299 - *** Running server in insecure mode on port: 50066 ***
+2018-06-05 11:16:47,678 - INFO - __main__ : 201 - GetCapabilities
+2018-06-05 11:16:47,678 - INFO - __main__ : 224 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-06-05 11:18:40,367 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:20:10,160 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:21:32,305 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:21:49,231 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:21:49,244 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-05 11:23:28,148 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:23:28,160 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-05 11:23:58,144 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:23:58,154 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-05 11:24:52,676 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:24:52,690 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-05 11:24:58,633 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:24:58,651 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-05 11:25:13,071 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:25:27,492 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:25:48,109 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:25:51,843 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:25:56,300 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:26:01,093 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:26:05,057 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:26:09,108 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:26:12,236 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:26:16,698 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:27:51,161 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:28:40,519 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:28:46,574 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:41:49,094 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:42:31,555 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:45:45,898 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:45:58,570 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:46:02,527 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:46:05,830 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:48:27,346 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:59:05,139 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 11:59:44,116 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:01:03,372 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:03:00,640 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:03:12,064 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:03:23,695 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:03:27,350 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:03:30,910 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:04:18,305 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:05:23,491 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:23,801 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:26,853 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:30,908 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:39,415 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:40,959 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:06:41,971 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:08:30,420 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:09:16,852 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:09:19,906 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:09:21,220 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:13:20,519 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:13:55,282 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-06-05 12:14:01,468 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)

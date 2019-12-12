@@ -1,0 +1,479 @@
+2018-06-04 10:23:03,010 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:23:03,043 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-04 10:23:18,319 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:23:18,333 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-06-04 10:23:25,566 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:24:18,629 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:24:18,659 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+2018-06-04 10:25:23,624 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:25:23,653 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+2018-06-04 10:25:25,108 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:25:25,147 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+2018-06-04 10:27:25,610 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:27:25,643 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2863-01-17 00:00:00
+2018-06-04 10:29:23,807 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:29:23,832 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:29:34,914 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:29:34,949 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:29:36,310 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:29:36,334 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:29:37,579 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:29:37,607 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:30:18,408 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:30:18,443 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:30:33,794 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:30:33,824 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:30:37,148 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:30:37,186 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:32:59,546 - INFO - __main__ : 43 - Logging enabled
+2018-06-04 10:32:59,546 - INFO - __main__ : 306 - *** Running server in insecure mode on port: 50066 ***
+2018-06-04 10:33:16,610 - INFO - __main__ : 246 - ExecuteFunction (functionId: 0)
+2018-06-04 10:33:16,611 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 122, in _prophet
+    floor = int([d.numData for d in row.duals][5])
+IndexError: list index out of range
+2018-06-04 10:33:17,471 - INFO - __main__ : 246 - ExecuteFunction (functionId: 0)
+2018-06-04 10:33:17,473 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 122, in _prophet
+    floor = int([d.numData for d in row.duals][5])
+IndexError: list index out of range
+2018-06-04 10:33:57,231 - INFO - __main__ : 43 - Logging enabled
+2018-06-04 10:33:57,241 - INFO - __main__ : 300 - *** Running server in insecure mode on port: 50066 ***
+2018-06-04 10:34:06,743 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:34:06,923 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:34:14,660 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:34:14,819 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:35:13,989 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:35:14,166 - ERROR - _server : 411 - Exception iterating responses: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 377, in _convert_listlike
+    values, tz = conversion.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslibs\conversion.pyx", line 186, in pandas._libs.tslibs.conversion.datetime_to_datetime64
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 776, in fit
+    self.history_dates = pd.to_datetime(df['ds']).sort_values()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 451, in to_datetime
+    values = _convert_listlike(arg._values, True, format)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 380, in _convert_listlike
+    raise e
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\tools\datetimes.py", line 368, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 492, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 699, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 551, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslib.pyx", line 546, in pandas._libs.tslib.array_to_datetime
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 2930-07-07 00:00:00
+2018-06-04 10:36:11,626 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:37:21,863 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:37:21,866 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 109, in _prophet
+    figures = int([d.numData for d in row.duals][1])
+ValueError: cannot convert float NaN to integer
+2018-06-04 10:37:36,374 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:16,618 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:20,553 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:21,905 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:25,678 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:29,936 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:42,835 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:50,996 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:38:54,437 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:40:14,662 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:42:49,369 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:55:54,508 - INFO - __main__ : 43 - Logging enabled
+2018-06-04 10:55:54,515 - INFO - __main__ : 300 - *** Running server in insecure mode on port: 50066 ***
+2018-06-04 10:56:13,607 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:56:16,916 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:56:21,370 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:59:28,972 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 10:59:35,762 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 11:05:07,202 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 11:05:11,884 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 11:05:12,989 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-04 11:05:18,575 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)

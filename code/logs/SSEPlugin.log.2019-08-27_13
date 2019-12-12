@@ -1,0 +1,38 @@
+2019-08-27 13:30:41,710 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:13:35,882 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:14:06,722 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:14:20,852 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:14:53,539 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:15:24,926 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:18:09,209 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:18:18,427 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:18:18,455 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-08-27 14:18:18,477 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:18:18,575 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-08-27 14:18:24,177 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:20:50,936 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)
+2019-08-27 14:22:36,364 - INFO - __main__ : 385 - ExecuteFunction (functionId: 0)

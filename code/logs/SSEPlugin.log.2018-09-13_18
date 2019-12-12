@@ -1,0 +1,3 @@
+2018-09-12 16:41:13,049 - INFO - __main__ : 335 - GetCapabilities
+2018-09-12 16:41:13,220 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-09-12 16:41:13,267 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

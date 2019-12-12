@@ -1,0 +1,37 @@
+2019-06-26 10:19:29,609 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-06-26 10:19:46,228 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-06-26 10:19:57,122 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-06-26 10:23:14,498 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-06-26 10:24:59,923 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-06-26 10:25:03,148 - ERROR - _server : 411 - Exception iterating responses: 'yhat_low'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 291, in _prophet
+    forecast['y'] = forecast['y'].combine_first(forecast[forecastReturnType])
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'yhat_low'

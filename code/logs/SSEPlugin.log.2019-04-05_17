@@ -1,0 +1,352 @@
+2019-04-05 15:42:44,634 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:42:54,780 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:43:01,415 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:43:09,350 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:43:15,877 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:43:22,776 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:45:00,343 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 15:45:00,355 - INFO - __main__ : 431 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 15:45:17,422 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:47:30,433 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:48:01,100 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:50:13,649 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:51:39,821 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:52:04,899 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:53:57,442 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:54:12,798 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:55:14,463 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 15:55:48,085 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 15:55:48,093 - INFO - __main__ : 431 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 15:58:55,872 - INFO - __main__ : 333 - GetCapabilities
+2019-04-05 15:58:55,873 - INFO - __main__ : 356 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-05 15:58:55,873 - INFO - __main__ : 356 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-05 16:00:04,817 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:00:16,629 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:04:23,828 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:06:09,758 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:06:09,816 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:06:21,308 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:06:21,387 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:06:23,950 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:06:24,013 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:07:33,427 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:07:33,509 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:07:41,971 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:07:42,017 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:07:48,638 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-05 16:07:48,703 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 215, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-05 16:08:49,008 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:08:49,014 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:08:52,206 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:09:00,850 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:09:54,320 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:09:54,385 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 219, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-05 16:09:56,211 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:09,103 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:09,151 - ERROR - _server : 411 - Exception iterating responses: local variable 'pythonDate' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 219, in _prophet
+    dateStampList.append(pythonDate)
+UnboundLocalError: local variable 'pythonDate' referenced before assignment
+2019-04-05 16:10:10,773 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:16,001 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:21,548 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:33,085 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:10:52,223 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:11:13,129 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:11:40,959 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:12:03,935 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:02,627 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:21:02,634 - INFO - __main__ : 436 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:21:11,132 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:11,134 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:11,135 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:11,135 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:12,600 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:21:12,686 - INFO - __main__ : 376 - ExecuteFunction (functionId: 0)
+2019-04-05 16:24:31,288 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:24:31,294 - INFO - __main__ : 437 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:24:43,246 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:24:43,316 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:24:51,206 - ERROR - _server : 411 - Exception iterating responses: 'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    f['yhat'] = 0
+TypeError: 'str' object does not support item assignment
+2019-04-05 16:24:51,243 - ERROR - _server : 411 - Exception iterating responses: 'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    f['yhat'] = 0
+TypeError: 'str' object does not support item assignment
+2019-04-05 16:25:51,524 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:25:51,530 - INFO - __main__ : 437 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:26:15,041 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:26:15,112 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:26:23,049 - ERROR - _server : 411 - Exception iterating responses: 0
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    forecast[i]['yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+2019-04-05 16:26:23,095 - ERROR - _server : 411 - Exception iterating responses: 0
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 288, in _prophet
+    forecast[i]['yhat'] = 0
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+2019-04-05 16:28:15,527 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:28:15,532 - INFO - __main__ : 437 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:28:27,185 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:28:27,250 - INFO - __main__ : 377 - ExecuteFunction (functionId: 0)
+2019-04-05 16:30:01,163 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:30:01,169 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:30:10,537 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:30:10,539 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:32:10,584 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:32:10,590 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:32:43,745 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:32:43,746 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:33:57,540 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:33:57,546 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:34:10,675 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:34:10,752 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:35:31,027 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:35:31,033 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:35:44,064 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:35:44,135 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:37:01,698 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:37:01,704 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:37:18,895 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:37:18,963 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-05 16:38:37,394 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:38:37,400 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:38:44,140 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:38:44,141 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:40:53,359 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:40:53,364 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:41:03,346 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:41:03,410 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-05 16:41:48,038 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:41:48,043 - INFO - __main__ : 435 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:42:01,057 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-05 16:42:01,058 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-05 16:43:50,706 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:43:50,712 - INFO - __main__ : 435 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:44:06,861 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-05 16:44:06,862 - INFO - __main__ : 375 - ExecuteFunction (functionId: 0)
+2019-04-05 16:50:06,704 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:50:06,714 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:50:16,302 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:50:16,381 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:50:16,404 - ERROR - _server : 411 - Exception iterating responses: 'Series' object has no attribute 'iget'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame['ds'].iget(-1)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'iget'
+2019-04-05 16:50:16,499 - ERROR - _server : 411 - Exception iterating responses: 'Series' object has no attribute 'iget'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame['ds'].iget(-1)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'iget'
+2019-04-05 16:50:41,857 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:50:41,863 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:50:50,313 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:50:50,384 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:50:50,442 - ERROR - _server : 411 - Exception iterating responses: 'Series' object has no attribute 'iget'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame['ds'].iget(-1)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'iget'
+2019-04-05 16:50:50,485 - ERROR - _server : 411 - Exception iterating responses: 'Series' object has no attribute 'iget'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame['ds'].iget(-1)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'iget'
+2019-04-05 16:51:55,734 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:51:55,740 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:52:04,393 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:52:04,462 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 16:53:14,262 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 16:53:14,269 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 16:54:15,962 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:54:15,964 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:54:48,490 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:55:26,186 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:55:31,446 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:55:40,788 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:56:27,182 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:56:37,747 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:56:44,228 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:56:50,634 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:56:58,393 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:57:18,226 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:57:43,810 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:58:04,567 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 16:58:36,876 - INFO - __main__ : 342 - GetCapabilities
+2019-04-05 16:58:36,877 - INFO - __main__ : 365 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-05 16:58:36,877 - INFO - __main__ : 365 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-05 17:01:09,712 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:10:06,737 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:10:06,743 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:10:23,182 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:12:53,443 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:12:53,449 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:13:03,889 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-05 17:15:11,883 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:15:11,892 - INFO - __main__ : 441 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:15:19,833 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-05 17:15:36,149 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-05 17:16:05,487 - INFO - __main__ : 381 - ExecuteFunction (functionId: 0)
+2019-04-05 17:18:38,510 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:18:38,518 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:20:58,533 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:20:58,539 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:21:08,295 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 17:21:52,617 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-05 17:24:32,419 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:24:32,423 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:24:38,035 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:25:27,223 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:26:58,646 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:26:58,652 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:27:03,623 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:30:50,115 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:30:50,121 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:31:00,847 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:31:04,110 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2019-04-05 17:31:39,703 - INFO - __main__ : 44 - Logging enabled
+2019-04-05 17:31:39,709 - INFO - __main__ : 440 - *** Running server in insecure mode on port: 50066 ***
+2019-04-05 17:31:46,043 - INFO - __main__ : 380 - ExecuteFunction (functionId: 0)
+2019-04-05 17:31:49,292 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 290, in _prophet
+    if f['ds'] <= maxDate:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

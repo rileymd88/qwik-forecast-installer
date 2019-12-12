@@ -1,0 +1,305 @@
+2019-04-02 09:28:26,658 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 09:38:12,108 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 09:38:14,676 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 10:03:06,191 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:03:06,198 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:03:45,710 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:03:45,712 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:03:45,712 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:05:41,345 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 10:32:44,236 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:32:44,241 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:33:28,854 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:33:28,856 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:33:28,856 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:36:29,058 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:36:29,059 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:36:29,060 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:38:05,750 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:38:05,756 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:38:36,054 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:38:36,055 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:38:36,056 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:40:10,210 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:40:10,215 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:42:23,742 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:42:23,756 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:44:07,813 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:44:07,816 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:44:07,817 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:45:39,394 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:45:39,404 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:46:05,235 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 10:46:05,236 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:46:05,236 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:48:47,437 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 10:48:47,457 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 10:51:36,299 - INFO - __main__ : 334 - GetCapabilities
+2019-04-02 10:51:36,301 - INFO - __main__ : 357 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 10:51:36,302 - INFO - __main__ : 357 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 10:52:52,741 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:05:09,474 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:05:10,967 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:05:13,222 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:19:58,213 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:20:30,380 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:21:06,848 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:21:06,851 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:21:20,206 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:21:20,209 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:21:26,958 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:22:03,344 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:22:03,351 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:22:15,597 - INFO - __main__ : 372 - ExecuteFunction (functionId: 0)
+2019-04-02 11:22:51,877 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:22:51,883 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:22:59,582 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:24:03,364 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:25:46,709 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:25:46,725 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:27:35,307 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:27:35,324 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:32:13,469 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:32:13,475 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:33:02,150 - INFO - __main__ : 335 - GetCapabilities
+2019-04-02 11:33:02,151 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 11:33:02,152 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 11:34:22,643 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:39:47,136 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:39:47,227 - ERROR - _server : 411 - Exception iterating responses: year 68510 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 68510 is out of range
+2019-04-02 11:40:25,889 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:40:59,273 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:41:09,980 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-04-02 11:43:23,658 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:43:23,664 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:43:43,299 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:45:07,780 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:45:07,854 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:45:24,660 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:45:57,403 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:45:57,409 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:46:07,005 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:46:50,494 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:48:28,638 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:48:34,683 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:01,569 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:07,021 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:30,485 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:42,626 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:51,718 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:49:59,127 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:50:14,098 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:50:30,551 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:50:36,549 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:50:41,505 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:50:55,363 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:54:51,507 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:54:51,514 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:55:02,476 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:02,481 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:02,482 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:02,484 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:14,065 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:21,640 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:55:21,754 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:56:20,310 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 11:56:20,316 - INFO - __main__ : 434 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 11:56:51,197 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:57:08,737 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:57:15,868 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:57:22,280 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:57:22,397 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 221, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-04-02 11:57:38,490 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:57:50,957 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:58:22,590 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:58:30,615 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:59:00,797 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 11:59:10,607 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:23:34,685 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:23:52,745 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:24:13,635 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:24:28,997 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:24:40,848 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:25:48,257 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:32:32,146 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:32:48,125 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:34:01,467 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:34:16,214 - INFO - __main__ : 374 - ExecuteFunction (functionId: 0)
+2019-04-02 12:39:17,385 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 12:39:17,396 - INFO - __main__ : 442 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 12:39:43,165 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-02 12:39:54,038 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-02 12:44:54,714 - INFO - __main__ : 382 - ExecuteFunction (functionId: 0)
+2019-04-02 12:51:21,919 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 12:51:21,929 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 12:51:24,927 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:52:50,805 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:52:58,673 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:53:35,074 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:53:41,455 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:55:23,891 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 12:55:23,900 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 12:55:30,051 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:58:36,454 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 12:58:36,460 - INFO - __main__ : 438 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 12:58:53,489 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:58:59,335 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:59:01,724 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:59:04,682 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:59:14,686 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 12:59:39,221 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:01:14,490 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:01:17,678 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:01:20,146 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:01:22,842 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:01:25,775 - INFO - __main__ : 378 - ExecuteFunction (functionId: 0)
+2019-04-02 13:03:06,279 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:03:06,285 - INFO - __main__ : 429 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:03:13,126 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:03:34,958 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:03:43,785 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:04:21,187 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:04:21,193 - INFO - __main__ : 430 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:04:39,024 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:05:01,964 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:05:07,568 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:05:15,944 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:05:57,475 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:06:06,651 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:06:12,443 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:06:19,576 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:06:34,415 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:06:34,421 - INFO - __main__ : 429 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:06:38,528 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:07:18,488 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:07:27,697 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:07:32,766 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:07:39,028 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:09:12,223 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:09:20,229 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:09:22,107 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:09:37,427 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:09:53,545 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:10:14,029 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:10:29,990 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:10:38,229 - INFO - __main__ : 369 - ExecuteFunction (functionId: 0)
+2019-04-02 13:16:18,399 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:16:18,405 - INFO - __main__ : 430 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:17:49,508 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:18:42,655 - INFO - __main__ : 370 - ExecuteFunction (functionId: 0)
+2019-04-02 13:25:53,466 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:25:53,474 - INFO - __main__ : 431 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:27:31,339 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,341 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,341 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,342 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,343 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,343 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,344 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,345 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,345 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,346 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,347 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,347 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:31,347 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:27:33,875 - INFO - __main__ : 333 - GetCapabilities
+2019-04-02 13:27:33,876 - INFO - __main__ : 356 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2019-04-02 13:27:33,877 - INFO - __main__ : 356 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-04-02 13:28:08,500 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:28:41,911 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:28:55,020 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:29:01,183 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:29:11,100 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:29:24,529 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:30:26,551 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:30:42,317 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:30:42,421 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 263, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-04-02 13:30:47,794 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:30:47,881 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 263, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-04-02 13:31:02,003 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:31:09,764 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:32:34,271 - INFO - __main__ : 44 - Logging enabled
+2019-04-02 13:32:34,276 - INFO - __main__ : 431 - *** Running server in insecure mode on port: 50066 ***
+2019-04-02 13:32:53,189 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:32:55,900 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:32:59,021 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:04,323 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:12,867 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:29,460 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:30,782 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:32,454 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:33,570 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:34,564 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:35,992 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:47,251 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:52,654 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 13:33:55,632 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 14:15:56,432 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 14:16:00,925 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 14:16:07,001 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 14:16:10,131 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)
+2019-04-02 14:16:23,629 - INFO - __main__ : 371 - ExecuteFunction (functionId: 0)

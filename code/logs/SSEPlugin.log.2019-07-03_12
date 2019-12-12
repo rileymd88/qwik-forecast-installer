@@ -1,0 +1,369 @@
+2019-07-03 12:19:36,434 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:19:46,444 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:20:30,493 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:20:40,537 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:20:49,406 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:21:04,923 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:21:29,564 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:23:56,356 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:23:56,464 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:23:56,469 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:23:56,556 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,228 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,356 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,365 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,365 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,371 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,456 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,471 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,595 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,673 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,725 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,782 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:10,783 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-07-03 12:24:10,783 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,783 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,783 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,783 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,786 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,789 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:10,916 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,026 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,132 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,263 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,348 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,351 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-07-03 12:24:11,438 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:11,543 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,546 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:11,650 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,698 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:11,789 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,793 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:11,894 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:11,981 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:12,064 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:12,068 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:12,167 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:14,857 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:14,958 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:14,962 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:15,043 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,167 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,175 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-07-03 12:24:24,177 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,179 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,315 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,316 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,318 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,324 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,366 - ERROR - _server : 411 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 248, in _prophet
+    maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2102, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexing.py", line 2009, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-07-03 12:24:24,409 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,443 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,532 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,649 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,711 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,712 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,712 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,712 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,712 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:24,830 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:24,948 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,043 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,159 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,159 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,276 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,400 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,401 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,503 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,586 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,593 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,666 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,703 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,787 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,825 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:25,932 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:25,936 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:26,018 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:55,537 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:55,645 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:24:55,650 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:24:55,755 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 214, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-07-03 12:25:56,835 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)
+2019-07-03 12:26:02,561 - INFO - __main__ : 384 - ExecuteFunction (functionId: 0)

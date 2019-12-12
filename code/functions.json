@@ -1,0 +1,33 @@
+{
+    "Functions" : [
+        {
+            "Id" : 0,
+            "Name" : "Prophet",
+            "Type" : 2,
+            "ReturnType": 1,
+            "Params" : {
+                "adjustments": 0,
+                "changePoint": 1,
+                "dateStamp" : 1, 
+                "figures" : 1,
+                "forecastLevel": 0,
+                "forecastPeriod": 1,
+                "forecastReturnType": 0,
+                "fourierOrder": 1,
+                "outliers": 0
+                }
+        },
+        {
+            "Id" : 1,
+            "Name" : "ProphetScript",
+            "Type" : 2,
+            "ReturnType": 1,
+            "Params" : {
+                "dateStamp" : 1, 
+                "figures" : 1,
+                "forecastPeriod": 1,
+                "forecastType": 0
+                }
+        }
+    ]
+}

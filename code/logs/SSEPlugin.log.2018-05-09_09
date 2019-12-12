@@ -1,0 +1,5 @@
+2018-05-09 09:22:13,586 - INFO - __main__ : 45 - Logging enabled
+2018-05-09 09:22:13,600 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-09 09:22:59,425 - INFO - __main__ : 147 - GetCapabilities
+2018-05-09 09:22:59,429 - INFO - __main__ : 170 - Adding to capabilities: ScrapingScript(['score', 'text'])
+2018-05-09 09:23:13,656 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)

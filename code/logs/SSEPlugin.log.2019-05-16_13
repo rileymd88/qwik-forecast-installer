@@ -1,0 +1,9 @@
+2019-05-16 13:03:03,512 - INFO - __main__ : 346 - GetCapabilities
+2019-05-16 13:03:03,516 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-16 13:03:03,516 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-16 13:28:05,525 - INFO - __main__ : 346 - GetCapabilities
+2019-05-16 13:28:05,526 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-16 13:28:05,528 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-16 13:36:37,872 - INFO - __main__ : 346 - GetCapabilities
+2019-05-16 13:36:37,874 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-16 13:36:37,874 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

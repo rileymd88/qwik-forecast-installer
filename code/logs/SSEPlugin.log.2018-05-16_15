@@ -1,0 +1,2 @@
+2018-05-16 15:55:57,876 - INFO - __main__ : 174 - GetCapabilities
+2018-05-16 15:55:57,886 - INFO - __main__ : 197 - Adding to capabilities: ScrapingScript(['goals', 'playerName', 'playerTeam'])

@@ -1,0 +1,129 @@
+2019-09-10 10:23:41,054 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 10:23:41,065 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 10:25:07,890 - INFO - __main__ : 376 - GetCapabilities
+2019-09-10 10:25:07,892 - INFO - __main__ : 399 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-10 10:25:07,892 - INFO - __main__ : 399 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-10 10:25:10,919 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:26:12,259 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:26:20,156 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:28:11,056 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:29:21,377 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:29:31,390 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:29:38,087 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:36:06,825 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:36:15,091 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:36:58,963 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:37:08,412 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:38:29,922 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:39:05,599 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-10 10:40:39,201 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 10:40:39,209 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 10:40:47,267 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-10 10:42:08,187 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 10:42:08,193 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 10:42:19,447 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:42:19,497 - ERROR - _server : 462 - Exception iterating responses: name 'df' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    df.to_csv(r'.\df.csv')
+NameError: name 'df' is not defined
+2019-09-10 10:42:19,512 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:42:19,564 - ERROR - _server : 462 - Exception iterating responses: name 'df' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    df.to_csv(r'.\df.csv')
+NameError: name 'df' is not defined
+2019-09-10 10:42:33,657 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 10:42:33,667 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 10:42:38,052 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:43:56,661 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:43:56,708 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:43:56,716 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:43:56,756 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:45:16,221 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:45:16,285 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:45:16,289 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:45:16,341 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:45:25,454 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:46:46,168 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:46:46,221 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:46:46,229 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:46:46,282 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 10:46:55,285 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 10:46:58,535 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)

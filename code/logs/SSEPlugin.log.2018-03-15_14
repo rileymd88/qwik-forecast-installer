@@ -1,0 +1,13 @@
+2018-03-15 14:39:40,175 - INFO - __main__ : 44 - Logging enabled
+2018-03-15 14:39:40,191 - INFO - __main__ : 370 - *** Running server in insecure mode on port: 50055 ***
+2018-03-15 14:39:59,452 - INFO - __main__ : 272 - GetCapabilities
+2018-03-15 14:39:59,452 - INFO - __main__ : 295 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-03-15 14:39:59,452 - INFO - __main__ : 295 - Adding to capabilities: SentimentScript(['id', 'text'])
+2018-03-15 14:39:59,452 - INFO - __main__ : 295 - Adding to capabilities: CleanTweet(['text'])
+2018-03-15 14:39:59,452 - INFO - __main__ : 295 - Adding to capabilities: CleanTweetScript(['id', 'text'])
+2018-03-15 14:41:04,343 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-03-15 14:42:11,879 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-03-15 14:50:12,628 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-03-15 15:07:28,333 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-03-15 15:10:22,547 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-03-15 15:39:11,196 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)

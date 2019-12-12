@@ -1,0 +1,62 @@
+2018-02-26 18:38:04,185 - INFO - scripteval : 32 - EvaluateScript: numpy.array(args).transpose() (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2018-02-26 18:38:04,201 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 69, in EvaluateScript
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2018-02-26 18:38:18,946 - INFO - scripteval : 32 - EvaluateScript: numpy.array(args).transpose() (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2018-02-26 18:38:18,946 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\SentimentNew\scripteval.py", line 69, in EvaluateScript
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2018-02-26 18:47:02,432 - INFO - __main__ : 182 - GetCapabilities
+2018-02-26 18:47:02,434 - INFO - __main__ : 205 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 18:47:02,435 - INFO - __main__ : 205 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:05:06,891 - INFO - __main__ : 44 - Logging enabled
+2018-02-26 19:05:06,891 - INFO - __main__ : 285 - *** Running server in insecure mode on port: 50089 ***
+2018-02-26 19:05:20,353 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:05:20,353 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:05:20,353 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:08:19,701 - INFO - __main__ : 44 - Logging enabled
+2018-02-26 19:08:19,717 - INFO - __main__ : 285 - *** Running server in insecure mode on port: 50089 ***
+2018-02-26 19:08:29,652 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:08:29,652 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:08:29,652 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:10:07,596 - INFO - __main__ : 225 - ExecuteFunction (functionId: 0)
+2018-02-26 19:10:15,189 - INFO - __main__ : 225 - ExecuteFunction (functionId: 0)
+2018-02-26 19:11:02,587 - INFO - __main__ : 44 - Logging enabled
+2018-02-26 19:11:02,587 - INFO - __main__ : 285 - *** Running server in insecure mode on port: 50089 ***
+2018-02-26 19:11:13,736 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:11:13,751 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:11:13,751 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:11:20,953 - INFO - __main__ : 225 - ExecuteFunction (functionId: 0)
+2018-02-26 19:24:20,443 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:24:20,443 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:24:20,443 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:33:51,640 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:33:51,646 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:33:51,646 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:35:59,577 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:35:59,577 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:35:59,577 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:37:52,196 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:37:52,196 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:37:52,205 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:42:47,138 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:42:47,138 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:42:47,138 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:52:01,338 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:52:01,338 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:52:01,338 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:54:44,390 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:54:44,390 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:54:44,390 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 19:56:28,877 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 19:56:28,877 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 19:56:28,877 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])
+2018-02-26 20:02:53,343 - INFO - __main__ : 187 - GetCapabilities
+2018-02-26 20:02:53,343 - INFO - __main__ : 210 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-26 20:02:53,343 - INFO - __main__ : 210 - Adding to capabilities: CleanTweet(['tweet'])

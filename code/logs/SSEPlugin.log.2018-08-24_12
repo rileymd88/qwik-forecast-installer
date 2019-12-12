@@ -1,0 +1,6 @@
+2018-08-24 12:14:02,139 - INFO - __main__ : 219 - GetCapabilities
+2018-08-24 12:14:02,170 - INFO - __main__ : 242 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-24 12:18:36,555 - INFO - __main__ : 219 - GetCapabilities
+2018-08-24 12:18:36,555 - INFO - __main__ : 242 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-24 12:21:49,030 - INFO - __main__ : 219 - GetCapabilities
+2018-08-24 12:21:49,032 - INFO - __main__ : 242 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])

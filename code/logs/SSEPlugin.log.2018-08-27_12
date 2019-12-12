@@ -1,0 +1,402 @@
+2018-08-27 09:24:48,318 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 09:24:48,521 - INFO - __main__ : 317 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 09:29:45,616 - INFO - __main__ : 219 - GetCapabilities
+2018-08-27 09:29:45,630 - INFO - __main__ : 242 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 09:42:40,592 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 09:42:40,633 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 09:42:55,986 - INFO - __main__ : 349 - GetCapabilities
+2018-08-27 09:42:55,998 - INFO - __main__ : 372 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 09:42:55,998 - INFO - __main__ : 372 - Adding to capabilities: ProphetScript(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 10:23:19,431 - INFO - __main__ : 387 - ExecuteFunction (functionId: 1)
+2018-08-27 10:23:19,465 - ERROR - _server : 411 - Exception iterating responses: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophetScript
+    if len(outliers) > 2:
+TypeError: object of type 'NoneType' has no len()
+2018-08-27 10:23:40,493 - INFO - __main__ : 387 - ExecuteFunction (functionId: 1)
+2018-08-27 10:23:40,494 - ERROR - _server : 411 - Exception iterating responses: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophetScript
+    if len(outliers) > 2:
+TypeError: object of type 'NoneType' has no len()
+2018-08-27 10:26:13,351 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:26:13,402 - INFO - __main__ : 447 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:26:13,692 - INFO - __main__ : 349 - GetCapabilities
+2018-08-27 10:26:13,704 - INFO - __main__ : 372 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 10:26:13,765 - INFO - __main__ : 372 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-08-27 10:26:38,790 - INFO - __main__ : 387 - ExecuteFunction (functionId: 1)
+2018-08-27 10:26:38,791 - ERROR - _server : 411 - Exception iterating responses: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophetScript
+    if len(outliers) > 2:
+TypeError: object of type 'NoneType' has no len()
+2018-08-27 10:27:29,962 - INFO - __main__ : 387 - ExecuteFunction (functionId: 1)
+2018-08-27 10:27:29,963 - ERROR - _server : 411 - Exception iterating responses: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophetScript
+    m = Prophet()
+TypeError: object of type 'NoneType' has no len()
+2018-08-27 10:27:40,781 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:27:40,792 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:27:45,899 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 10:27:45,902 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 145, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:29:05,061 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:29:05,079 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:29:36,266 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 10:29:36,267 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 146, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:30:47,059 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:30:47,059 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:31:02,807 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:31:02,823 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:31:24,359 - INFO - __main__ : 335 - GetCapabilities
+2018-08-27 10:31:24,359 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 10:31:24,359 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-08-27 10:31:27,796 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 10:31:27,797 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 146, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:34:53,070 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:34:53,085 - INFO - __main__ : 417 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:34:59,136 - INFO - __main__ : 357 - ExecuteFunction (functionId: 1)
+2018-08-27 10:34:59,138 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 148, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:35:40,209 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:35:40,220 - INFO - __main__ : 417 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:35:47,942 - INFO - __main__ : 357 - ExecuteFunction (functionId: 1)
+2018-08-27 10:35:47,943 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 148, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:36:08,260 - INFO - __main__ : 319 - GetCapabilities
+2018-08-27 10:36:08,261 - INFO - __main__ : 342 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-08-27 10:36:08,262 - INFO - __main__ : 342 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-08-27 10:36:55,004 - INFO - __main__ : 357 - ExecuteFunction (functionId: 1)
+2018-08-27 10:36:55,005 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 148, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:37:42,755 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:37:42,775 - INFO - __main__ : 415 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:37:45,207 - INFO - __main__ : 355 - ExecuteFunction (functionId: 1)
+2018-08-27 10:37:45,208 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 146, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:40:02,693 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:40:02,693 - INFO - __main__ : 415 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:40:06,812 - INFO - __main__ : 355 - ExecuteFunction (functionId: 1)
+2018-08-27 10:40:06,814 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 146, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:40:51,981 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:40:51,994 - INFO - __main__ : 416 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:40:58,385 - INFO - __main__ : 356 - ExecuteFunction (functionId: 1)
+2018-08-27 10:40:58,386 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 147, in _prophetScript
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:41:58,652 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:41:58,663 - INFO - __main__ : 422 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:42:05,306 - INFO - __main__ : 362 - ExecuteFunction (functionId: 1)
+2018-08-27 10:42:05,307 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 147, in _prophetScript
+    if not m:
+UnboundLocalError: local variable 'm' referenced before assignment
+2018-08-27 10:42:34,019 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:42:34,033 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:42:37,130 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 10:42:37,139 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 152, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:43:18,105 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:43:18,128 - INFO - __main__ : 424 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:43:21,348 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 10:43:21,376 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 153, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:47:38,264 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:47:38,277 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:47:44,419 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 10:47:44,452 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 152, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:49:26,479 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:49:26,501 - INFO - __main__ : 424 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:49:30,970 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 10:49:30,997 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 153, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:51:22,058 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:51:22,070 - INFO - __main__ : 424 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:51:28,033 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 10:51:28,064 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 153, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:51:58,753 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 10:51:58,768 - INFO - __main__ : 424 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 10:52:01,992 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 10:52:02,014 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 153, in _prophetScript
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 10:55:16,877 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 10:55:16,899 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 153, in _prophetScript
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2018-08-27 11:02:04,948 - INFO - __main__ : 364 - ExecuteFunction (functionId: 1)
+2018-08-27 11:02:07,908 - ERROR - _server : 411 - Exception iterating responses: 'df'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 158, in _prophetScript
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+2018-08-27 11:03:19,593 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:03:19,610 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:03:23,706 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:03:27,662 - ERROR - _server : 411 - Exception iterating responses: 'df'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 157, in _prophetScript
+    dateList = forecast['df'].values.toList()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+2018-08-27 11:03:41,594 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:03:48,646 - ERROR - _server : 411 - Exception iterating responses: 'df'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 157, in _prophetScript
+    dateList = forecast['ds'].values.toList()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'df'
+2018-08-27 11:07:24,896 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:07:24,913 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:07:43,387 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:07:48,141 - ERROR - _server : 411 - Exception iterating responses: 'numpy.ndarray' object has no attribute 'toList'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 157, in _prophetScript
+    dateList = forecast['ds'].values.toList()
+AttributeError: 'numpy.ndarray' object has no attribute 'toList'
+2018-08-27 11:14:17,098 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:14:17,111 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:14:37,678 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:14:42,109 - ERROR - _server : 411 - Exception iterating responses: 1414281600000000000 has type int, but expected one of: bytes, unicode
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 170, in _prophetScript
+    dualsList.append([SSE.Dual(strData=d) for d in dateList])
+  File "__main__.py", line 170, in <listcomp>
+    dualsList.append([SSE.Dual(strData=d) for d in dateList])
+TypeError: 1414281600000000000 has type int, but expected one of: bytes, unicode
+2018-08-27 11:15:34,323 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:15:34,347 - INFO - __main__ : 423 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:15:47,666 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:15:52,214 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:15:56,501 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:17:58,853 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:18:07,646 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:18:14,756 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:20:36,611 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:20:41,846 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:20:47,394 - INFO - __main__ : 363 - ExecuteFunction (functionId: 1)
+2018-08-27 11:21:59,687 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:21:59,723 - INFO - __main__ : 425 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:22:34,451 - INFO - __main__ : 365 - ExecuteFunction (functionId: 1)
+2018-08-27 11:22:40,976 - INFO - __main__ : 365 - ExecuteFunction (functionId: 1)
+2018-08-27 11:22:47,362 - INFO - __main__ : 365 - ExecuteFunction (functionId: 1)
+2018-08-27 11:25:44,576 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:25:44,597 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:25:53,136 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:25:59,560 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:26:05,184 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:26:40,529 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:26:40,557 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:27:32,398 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:27:37,533 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:27:42,949 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:28:43,988 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:28:44,012 - INFO - __main__ : 432 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:28:48,844 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:28:55,981 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:29:03,057 - INFO - __main__ : 372 - ExecuteFunction (functionId: 1)
+2018-08-27 11:30:42,359 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:30:42,383 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:30:49,961 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 11:30:55,632 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 11:31:01,433 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 11:34:46,732 - INFO - __main__ : 44 - Logging enabled
+2018-08-27 11:34:46,762 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-27 11:35:04,359 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 11:35:09,437 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 11:35:14,116 - INFO - __main__ : 373 - ExecuteFunction (functionId: 1)
+2018-08-27 12:03:53,585 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-27 12:04:05,202 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-27 12:05:02,216 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-27 12:05:02,235 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-27 12:06:32,461 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-27 12:06:32,490 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)

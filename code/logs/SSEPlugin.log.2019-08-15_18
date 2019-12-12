@@ -1,0 +1,74 @@
+2019-08-15 15:08:03,990 - INFO - scripteval : 31 - EvaluateScript: "The answer to the Ultimate Question of Life, the Universe, and Everything" (ArgType.Empty ReturnType.String) FunctionType.Tensor
+2019-08-15 15:08:03,992 - INFO - scripteval : 31 - EvaluateScript: 40+2 (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 15:08:03,996 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 15:08:03,996 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 18:09:39,919 - INFO - __main__ : 44 - Logging enabled
+2019-08-15 18:09:39,930 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-08-15 18:09:52,346 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:09:52,356 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:10:03,866 - INFO - scripteval : 31 - EvaluateScript: "The answer to the Ultimate Question of Life, the Universe, and Everything" (ArgType.Empty ReturnType.String) FunctionType.Tensor
+2019-08-15 18:10:03,867 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 18:10:03,868 - INFO - scripteval : 31 - EvaluateScript: 40+2 (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 18:10:03,872 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 18:10:38,970 - INFO - scripteval : 31 - EvaluateScript: Hello World! (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 18:10:38,977 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 18:10:49,984 - INFO - scripteval : 31 - EvaluateScript: 100 (ArgType.Empty ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 18:10:49,984 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 77, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Script evaluation with no parameters is not supported in this plugin.')
+2019-08-15 18:11:03,930 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:03,939 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:05,371 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:05,378 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:06,263 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:06,267 - INFO - scripteval : 31 - EvaluateScript: ", ".join(args[0]) (ArgType.String ReturnType.String) FunctionType.Aggregation
+2019-08-15 18:11:31,708 - INFO - scripteval : 31 - EvaluateScript: args[0] (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2019-08-15 18:11:31,708 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 68, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2019-08-15 18:12:08,286 - INFO - scripteval : 31 - EvaluateScript: sum(args[0]) (ArgType.Numeric ReturnType.Numeric) FunctionType.Aggregation
+2019-08-15 18:12:08,286 - ERROR - _server : 411 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\ckg\OneDrive - QlikTech Inc\Development\qlik-sense-aai\Prophet\scripteval.py", line 68, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')

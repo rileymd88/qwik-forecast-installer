@@ -1,0 +1,12 @@
+2018-10-03 19:00:45,490 - INFO - __main__ : 335 - GetCapabilities
+2018-10-03 19:00:45,509 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-10-03 19:00:45,511 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-10-03 19:41:17,608 - INFO - __main__ : 335 - GetCapabilities
+2018-10-03 19:41:17,610 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-10-03 19:41:17,611 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-10-03 19:43:22,883 - INFO - __main__ : 335 - GetCapabilities
+2018-10-03 19:43:22,886 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-10-03 19:43:22,886 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2018-10-03 19:46:28,126 - INFO - __main__ : 335 - GetCapabilities
+2018-10-03 19:46:28,128 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-10-03 19:46:28,129 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

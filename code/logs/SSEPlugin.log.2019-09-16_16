@@ -1,0 +1,727 @@
+2019-09-16 13:55:12,269 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 13:55:12,279 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 13:56:04,703 - INFO - __main__ : 371 - GetCapabilities
+2019-09-16 13:56:04,705 - INFO - __main__ : 394 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-16 13:56:04,706 - INFO - __main__ : 394 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-16 13:56:12,782 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:56:23,289 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:58:13,789 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:58:13,809 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:58:13,816 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:58:13,834 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:58:41,859 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:58:41,878 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:58:41,880 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:58:41,904 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:59:24,405 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:59:24,424 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:59:24,426 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 13:59:24,443 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 13:59:40,303 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:00:26,474 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:00:26,493 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:00:26,494 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:00:26,513 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:01:21,230 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:01:21,252 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:01:21,253 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:01:21,281 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:01:41,801 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:01:41,819 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:01:41,820 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:01:41,839 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:02:59,387 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:04:50,622 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:05:16,235 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:05:56,147 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:06:09,425 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:13,061 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:13,068 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:11:13,074 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:13,136 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:11:20,451 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:27,721 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:36,436 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:11:43,839 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:09,093 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:16,323 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:26,955 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:34,108 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:42,793 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:12:57,515 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:13:12,584 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:16:28,826 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:17:24,217 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:17:24,223 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:17:24,226 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:17:24,235 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:20:00,756 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:21:31,566 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:21:41,302 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:25:26,707 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:25:26,716 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:25:26,717 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:25:26,730 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:25:49,124 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:26:08,863 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:26:08,876 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:26:08,878 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:26:08,897 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 303, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-16 14:26:10,037 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:01,154 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:01,163 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:01,165 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:01,188 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:03,404 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:03,413 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:03,414 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:03,428 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:07,357 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:07,365 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:07,367 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:07,375 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:10,586 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:10,595 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:10,596 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:10,610 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-16 14:27:17,290 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:20,174 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:27:28,281 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:28:25,296 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:28:25,305 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:28:35,442 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 14:31:46,351 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:31:46,359 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:31:53,553 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 14:33:59,990 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:33:59,998 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:34:05,614 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:34:09,883 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\forecast.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    forecast.to_csv(r'.\forecast.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\forecast.csv'
+2019-09-16 14:34:09,888 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:34:13,085 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\forecast.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    forecast.to_csv(r'.\forecast.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\forecast.csv'
+2019-09-16 14:34:22,311 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:34:25,169 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\forecast.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    forecast.to_csv(r'.\forecast.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\forecast.csv'
+2019-09-16 14:34:25,171 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:34:28,153 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\forecast.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    forecast.to_csv(r'.\forecast.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\forecast.csv'
+2019-09-16 14:34:43,702 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:35:08,208 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:35:08,216 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:35:11,692 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:35:58,871 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:35:58,881 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:36:05,657 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-16 14:36:36,435 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:36:36,441 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:36:57,880 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-16 14:37:34,325 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:37:34,332 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:37:42,705 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-16 14:38:13,333 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:38:13,346 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:38:17,671 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-16 14:38:53,211 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:38:53,219 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:38:59,053 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-16 14:40:12,695 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:40:12,701 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:40:15,562 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-16 14:41:25,929 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:41:25,938 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:41:29,492 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 14:42:07,642 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:42:07,649 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:42:10,432 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:42:51,420 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:42:51,429 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:43:18,617 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:43:18,627 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:43:23,284 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 14:53:52,629 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:53:52,638 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:53:55,422 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 14:54:00,776 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 344, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-16 14:54:00,789 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 14:54:04,199 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 344, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-16 14:56:02,604 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 14:56:02,612 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 14:56:10,238 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:02:19,136 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:02:19,148 - INFO - __main__ : 477 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:02:23,930 - INFO - __main__ : 417 - ExecuteFunction (functionId: 0)
+2019-09-16 15:02:29,353 - ERROR - _server : 462 - Exception iterating responses: ("name 'forecast_result' is not defined", 'occurred at index 0')
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 333, in _prophet
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6487, in apply
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 151, in get_result
+    return self.apply_standard()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 257, in apply_standard
+    self.apply_series_generator()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 286, in apply_series_generator
+    results[i] = self.f(v)
+  File "__main__.py", line 333, in <lambda>
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+NameError: ("name 'forecast_result' is not defined", 'occurred at index 0')
+2019-09-16 15:02:29,361 - INFO - __main__ : 417 - ExecuteFunction (functionId: 0)
+2019-09-16 15:02:34,212 - ERROR - _server : 462 - Exception iterating responses: ("name 'forecast_result' is not defined", 'occurred at index 0')
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 333, in _prophet
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6487, in apply
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 151, in get_result
+    return self.apply_standard()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 257, in apply_standard
+    self.apply_series_generator()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 286, in apply_series_generator
+    results[i] = self.f(v)
+  File "__main__.py", line 333, in <lambda>
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+NameError: ("name 'forecast_result' is not defined", 'occurred at index 0')
+2019-09-16 15:04:01,040 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:04:01,048 - INFO - __main__ : 478 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:04:02,573 - INFO - __main__ : 418 - ExecuteFunction (functionId: 0)
+2019-09-16 15:04:07,176 - ERROR - _server : 462 - Exception iterating responses: ("name 'forecast_result' is not defined", 'occurred at index 0')
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 334, in _prophet
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6487, in apply
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 151, in get_result
+    return self.apply_standard()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 257, in apply_standard
+    self.apply_series_generator()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 286, in apply_series_generator
+    results[i] = self.f(v)
+  File "__main__.py", line 334, in <lambda>
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+NameError: ("name 'forecast_result' is not defined", 'occurred at index 0')
+2019-09-16 15:04:07,193 - INFO - __main__ : 418 - ExecuteFunction (functionId: 0)
+2019-09-16 15:04:10,662 - ERROR - _server : 462 - Exception iterating responses: ("name 'forecast_result' is not defined", 'occurred at index 0')
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 334, in _prophet
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6487, in apply
+    return op.get_result()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 151, in get_result
+    return self.apply_standard()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 257, in apply_standard
+    self.apply_series_generator()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\apply.py", line 286, in apply_series_generator
+    results[i] = self.f(v)
+  File "__main__.py", line 334, in <lambda>
+    forecast['result'] = forecast.apply(lambda row: forecast_result(row, forecastReturnType), axis=1)
+NameError: ("name 'forecast_result' is not defined", 'occurred at index 0')
+2019-09-16 15:08:17,634 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:08:17,642 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:08:19,548 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 15:08:19,548 - ERROR - _server : 444 - Exception calling application: _prophet() missing 1 required positional argument: 'context'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 434, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "__main__.py", line 413, in ExecuteFunction
+    return getattr(self, self.functions[func_id])(request_iterator, context)
+TypeError: _prophet() missing 1 required positional argument: 'context'
+2019-09-16 15:08:19,551 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 15:08:19,551 - ERROR - _server : 444 - Exception calling application: _prophet() missing 1 required positional argument: 'context'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 434, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "__main__.py", line 413, in ExecuteFunction
+    return getattr(self, self.functions[func_id])(request_iterator, context)
+TypeError: _prophet() missing 1 required positional argument: 'context'
+2019-09-16 15:08:35,858 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:08:35,864 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:08:36,781 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 15:10:26,481 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:10:26,488 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:10:30,793 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 15:12:15,322 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:12:15,327 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:12:19,288 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:12:51,890 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:13:01,559 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:13:31,612 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:13:42,233 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:19:16,598 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:19:50,803 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:19:50,812 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:19:57,733 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:20:56,315 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-16 15:21:28,162 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:21:28,170 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:21:31,024 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:25:06,004 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:25:06,013 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:25:37,247 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:25:48,439 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:28:02,518 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:28:02,524 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:28:20,404 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:28:20,415 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'freq'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(freq='MS',changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'freq'
+2019-09-16 15:28:20,422 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:28:20,441 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'freq'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(freq='MS',changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'freq'
+2019-09-16 15:31:50,938 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:31:50,945 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:32:03,905 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:32:17,687 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:32:24,781 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:33:18,868 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:33:18,876 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:33:23,332 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:33:31,507 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:43:03,097 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:43:03,104 - INFO - __main__ : 471 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:43:18,659 - INFO - __main__ : 411 - ExecuteFunction (functionId: 0)
+2019-09-16 15:44:56,882 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:44:56,890 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:45:01,824 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:45:09,247 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:45:13,146 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:46:29,550 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:46:29,558 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:46:34,801 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:46:42,806 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:46:52,672 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:46:57,685 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:47:05,549 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:47:10,023 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:47:13,870 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:47:21,143 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:49:07,831 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 15:49:07,837 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 15:49:09,560 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:57:40,942 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 15:58:05,166 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:04,892 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 16:00:04,898 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 16:00:12,702 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:20,432 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:24,256 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:27,820 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:30,919 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:00:35,211 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:02:05,558 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:02:56,241 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 16:02:56,249 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 16:02:59,084 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:03:25,526 - INFO - __main__ : 372 - GetCapabilities
+2019-09-16 16:03:25,528 - INFO - __main__ : 395 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-16 16:03:25,529 - INFO - __main__ : 395 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-16 16:03:32,799 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:04:49,019 - INFO - __main__ : 45 - Logging enabled
+2019-09-16 16:04:49,029 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-16 16:05:01,990 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:07:26,980 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:07:34,520 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:07:44,615 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:07:57,786 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:08:09,683 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:08:56,278 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:00,919 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:05,057 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:10,061 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:17,118 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:22,892 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:09:33,917 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:31:50,031 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-16 16:38:17,327 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)

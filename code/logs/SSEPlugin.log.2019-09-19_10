@@ -1,0 +1,5 @@
+2019-09-19 10:53:47,559 - INFO - __main__ : 45 - Logging enabled
+2019-09-19 10:53:47,570 - INFO - __main__ : 483 - *** Running server in insecure mode on port: 50066 ***
+2019-09-19 10:55:17,745 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-19 10:55:53,540 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-19 10:56:22,570 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)

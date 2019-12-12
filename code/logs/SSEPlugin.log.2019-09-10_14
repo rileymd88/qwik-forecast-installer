@@ -1,0 +1,368 @@
+2019-09-10 13:26:56,267 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:04,102 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:09,553 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:15,734 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:28,575 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:42,520 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:48,174 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:27:53,411 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:28:00,098 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:29:31,092 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:30:28,172 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:30:28,173 - ERROR - _server : 462 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamp) - 2)
+OverflowError: Python int too large to convert to C long
+2019-09-10 13:30:28,174 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:30:28,176 - ERROR - _server : 462 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamp) - 2)
+OverflowError: Python int too large to convert to C long
+2019-09-10 13:31:21,150 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:31:21,152 - ERROR - _server : 462 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamp) - 2)
+OverflowError: Python int too large to convert to C long
+2019-09-10 13:31:21,154 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:31:21,156 - ERROR - _server : 462 - Exception iterating responses: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamp) - 2)
+OverflowError: Python int too large to convert to C long
+2019-09-10 13:33:52,951 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:35:24,392 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:36:26,322 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:37:17,020 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:37:27,821 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:41:31,368 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:41:31,384 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:41:31,386 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:41:31,403 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:41:59,687 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 13:41:59,695 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 13:42:01,886 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:42:01,949 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 13:42:01,958 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:42:02,014 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 13:42:15,023 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:42:15,036 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 13:42:15,039 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:42:15,053 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 13:42:55,509 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:44:00,693 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:46:01,647 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:55:22,288 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 13:55:43,221 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:00:16,615 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:00:59,744 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:01:11,090 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:01:36,618 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:01:52,476 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:02:50,556 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:02:50,599 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:02:50,607 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:02:50,649 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:03:11,353 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:03:11,401 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:03:11,409 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:03:11,456 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:03:22,505 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:00,653 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:16,854 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:44,201 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:58,964 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:59,167 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-09-10 14:04:59,180 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:04:59,396 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-09-10 14:05:00,413 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:00,602 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-09-10 14:05:00,603 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:00,799 - ERROR - _server : 462 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1131, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 304, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1138, in fit
+    params = model.optimizing(**args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 876, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.StanFit4Model._call_sampler
+  File "stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341.pyx", line 401, in stanfit4anon_model_db8febf10f23d7fa27a62fbcfd7f17b2_604436787436303341._call_sampler
+RuntimeError: Initialization failed.
+2019-09-10 14:05:02,698 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:16,381 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:21,638 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:25,836 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:30,828 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:40,155 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:47,462 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:05:54,511 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:06:09,763 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:06:58,314 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:07:03,819 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:07:03,837 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 295, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 14:07:03,839 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:07:03,868 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 295, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-10 14:07:18,179 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:07:25,776 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:10:29,742 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-10 14:11:32,398 - INFO - __main__ : 45 - Logging enabled
+2019-09-10 14:11:32,406 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-09-10 14:11:39,040 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:11:39,082 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:11:39,097 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:11:39,129 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 14:11:47,406 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:11:55,681 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:12:17,764 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:12:33,156 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:13:39,122 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:13:55,333 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:15:34,521 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:15:39,968 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:18:51,120 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:18:55,732 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:00,493 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:05,312 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:09,778 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:18,678 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:24,512 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:30,563 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:19:35,981 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-09-10 14:45:10,368 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)

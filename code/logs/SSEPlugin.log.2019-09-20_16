@@ -1,0 +1,268 @@
+2019-09-20 14:31:03,034 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:33:08,093 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:38:17,497 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:38:35,552 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:38:50,767 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:38:56,694 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:44:40,606 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:44:46,876 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:46:37,842 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:46:42,619 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:46:47,186 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:46:54,475 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:46:59,908 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:47:31,699 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:47:36,816 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:48:04,042 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:48:16,987 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:48:27,565 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:48:59,647 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:49:05,110 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:49:10,463 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:49:21,306 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:51:39,749 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:53:04,731 - INFO - __main__ : 45 - Logging enabled
+2019-09-20 14:53:04,740 - INFO - __main__ : 483 - *** Running server in insecure mode on port: 50066 ***
+2019-09-20 14:53:08,075 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:54:39,396 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:54:58,544 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:55:31,078 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:55:38,653 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:55:52,269 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:55:58,582 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:56:05,741 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:56:12,838 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:56:20,619 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:56:26,199 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:58:04,305 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:59:49,180 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 14:59:56,754 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:02:51,103 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:02:57,607 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:03:02,872 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:03:09,073 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:03:28,131 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:03:57,742 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:11,459 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:11,466 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:11,471 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:11,478 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:11,487 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:11,494 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:11,495 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:11,502 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:19,389 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:19,397 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:19,398 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:19,405 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:19,416 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:19,424 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:19,425 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:19,434 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:23,906 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:23,911 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:23,914 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:23,920 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:23,934 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:23,944 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:23,945 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:23,955 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:27,210 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:49,126 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:49,153 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:04:49,156 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:04:49,171 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:05:19,588 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:05:19,595 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:05:19,596 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:05:19,604 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 316, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:05:33,516 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:05:58,562 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:06:26,039 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:06:36,648 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:07:21,785 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:07:37,736 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:07:52,648 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:07:59,375 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:08:06,108 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:08:11,688 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:08:20,975 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:08:54,124 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:38:32,126 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 15:39:33,988 - INFO - __main__ : 45 - Logging enabled
+2019-09-20 15:39:33,995 - INFO - __main__ : 484 - *** Running server in insecure mode on port: 50066 ***
+2019-09-20 15:39:43,776 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:39:43,799 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:39:43,803 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:39:43,817 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 317, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-20 15:40:03,678 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:40:08,221 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:40:54,176 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:41:30,372 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:43:02,308 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:48:26,558 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:48:47,729 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:49:07,976 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:49:25,114 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:49:25,115 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:54:07,651 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:54:12,287 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:54:21,884 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:58:09,865 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:26,473 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:32,651 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:42,252 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:45,908 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:53,242 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 15:59:58,336 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:07:15,983 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:09:27,937 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:09:42,974 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:13:23,381 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:16:14,366 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:18:35,167 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-09-20 16:22:16,162 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)

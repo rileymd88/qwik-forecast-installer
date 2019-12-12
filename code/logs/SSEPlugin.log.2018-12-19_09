@@ -1,0 +1,5 @@
+2018-12-19 09:34:02,645 - INFO - __main__ : 44 - Logging enabled
+2018-12-19 09:34:02,707 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-12-19 09:39:16,967 - INFO - __main__ : 335 - GetCapabilities
+2018-12-19 09:39:16,999 - INFO - __main__ : 358 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-12-19 09:39:17,056 - INFO - __main__ : 358 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

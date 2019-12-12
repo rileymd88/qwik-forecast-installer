@@ -1,0 +1,17 @@
+2019-05-27 14:51:20,489 - INFO - __main__ : 346 - GetCapabilities
+2019-05-27 14:51:20,498 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-27 14:51:20,498 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-27 15:00:16,981 - INFO - __main__ : 346 - GetCapabilities
+2019-05-27 15:00:16,982 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-27 15:00:16,984 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-27 15:17:40,041 - INFO - __main__ : 346 - GetCapabilities
+2019-05-27 15:17:40,042 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-27 15:17:40,042 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-27 15:33:43,376 - INFO - __main__ : 44 - Logging enabled
+2019-05-27 15:33:43,391 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-05-27 15:37:23,970 - INFO - __main__ : 346 - GetCapabilities
+2019-05-27 15:37:23,973 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-27 15:37:23,973 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-27 15:39:35,806 - INFO - __main__ : 346 - GetCapabilities
+2019-05-27 15:39:35,809 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-27 15:39:35,809 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

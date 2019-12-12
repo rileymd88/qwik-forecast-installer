@@ -1,0 +1,256 @@
+2018-05-08 15:21:55,410 - INFO - __main__ : 46 - Logging enabled
+2018-05-08 15:21:55,418 - INFO - __main__ : 220 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:23:50,169 - INFO - __main__ : 122 - GetCapabilities
+2018-05-08 15:23:50,172 - INFO - __main__ : 145 - Adding to capabilities: ScrapingScript(['score', 'text'])
+2018-05-08 15:26:38,030 - INFO - __main__ : 122 - GetCapabilities
+2018-05-08 15:26:38,031 - INFO - __main__ : 145 - Adding to capabilities: ScrapingScript(['score', 'text'])
+2018-05-08 15:27:51,200 - INFO - __main__ : 160 - ExecuteFunction (functionId: 0)
+2018-05-08 15:27:55,215 - ERROR - _server : 411 - Exception iterating responses: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 85, in _scraping
+    driver.get('https://www.bundesliga.com/en/stats/bundesliga/current-season/all-matchdays/player-stats/goals')
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 324, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-08 15:29:32,455 - INFO - __main__ : 42 - Logging enabled
+2018-05-08 15:29:32,455 - INFO - __main__ : 222 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:30:05,612 - INFO - __main__ : 162 - ExecuteFunction (functionId: 0)
+2018-05-08 15:31:47,322 - INFO - __main__ : 162 - ExecuteFunction (functionId: 0)
+2018-05-08 15:35:23,722 - INFO - __main__ : 162 - ExecuteFunction (functionId: 0)
+2018-05-08 15:38:27,521 - INFO - __main__ : 42 - Logging enabled
+2018-05-08 15:38:27,537 - INFO - __main__ : 223 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:38:46,837 - INFO - __main__ : 163 - ExecuteFunction (functionId: 0)
+2018-05-08 15:40:31,124 - INFO - __main__ : 42 - Logging enabled
+2018-05-08 15:40:31,131 - INFO - __main__ : 225 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:40:46,251 - INFO - __main__ : 165 - ExecuteFunction (functionId: 0)
+2018-05-08 15:42:39,839 - INFO - __main__ : 42 - Logging enabled
+2018-05-08 15:42:39,846 - INFO - __main__ : 227 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:43:06,588 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2018-05-08 15:55:32,189 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 15:55:32,204 - INFO - __main__ : 227 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:55:41,072 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2018-05-08 15:55:48,447 - ERROR - _server : 411 - Exception iterating responses: 'WebElement' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 93, in _scraping
+    for row in playerList:
+TypeError: 'WebElement' object is not iterable
+2018-05-08 15:57:19,318 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 15:57:19,325 - INFO - __main__ : 228 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:57:24,252 - INFO - __main__ : 168 - ExecuteFunction (functionId: 0)
+2018-05-08 15:57:30,474 - ERROR - _server : 411 - Exception iterating responses: name 'find_element_by_class_name' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 93, in _scraping
+    playerList = find_element_by_class_name("list-group-item")
+NameError: name 'find_element_by_class_name' is not defined
+2018-05-08 15:58:17,752 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 15:58:17,758 - INFO - __main__ : 228 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 15:58:22,033 - INFO - __main__ : 168 - ExecuteFunction (functionId: 0)
+2018-05-08 15:58:27,951 - ERROR - _server : 411 - Exception iterating responses: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 95, in _scraping
+    playerName = row.find_element_by_class_name("player__name").text
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 398, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 653, in find_element
+    {"using": by, "value": value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-08 16:03:44,272 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:03:44,275 - INFO - __main__ : 230 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:03:58,580 - INFO - __main__ : 170 - ExecuteFunction (functionId: 0)
+2018-05-08 16:04:07,797 - ERROR - _server : 411 - Exception iterating responses: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 97, in _scraping
+    playerName = playerRow.find_element_by_class_name("player__name").text
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 398, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 653, in find_element
+    {"using": by, "value": value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"class name","selector":"player__name"}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-08 16:09:47,185 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:09:47,194 - INFO - __main__ : 231 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:09:51,555 - INFO - __main__ : 171 - ExecuteFunction (functionId: 0)
+2018-05-08 16:09:59,182 - ERROR - _server : 411 - Exception iterating responses: name 'find_elements_by_class_name' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 96, in _scraping
+    playerName = find_elements_by_class_name("player__name")
+NameError: name 'find_elements_by_class_name' is not defined
+2018-05-08 16:10:38,437 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:10:38,443 - INFO - __main__ : 231 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:10:42,500 - INFO - __main__ : 171 - ExecuteFunction (functionId: 0)
+2018-05-08 16:10:49,881 - ERROR - _server : 411 - Exception iterating responses: '29' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 103, in _scraping
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+  File "__main__.py", line 103, in <listcomp>
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+TypeError: '29' has type str, but expected one of: int, long, float
+2018-05-08 16:12:22,125 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:12:22,125 - INFO - __main__ : 231 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:12:26,941 - INFO - __main__ : 171 - ExecuteFunction (functionId: 0)
+2018-05-08 16:22:34,123 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:22:34,139 - INFO - __main__ : 236 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:22:38,441 - INFO - __main__ : 176 - ExecuteFunction (functionId: 0)
+2018-05-08 16:26:06,309 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:26:06,315 - INFO - __main__ : 236 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:26:11,526 - INFO - __main__ : 176 - ExecuteFunction (functionId: 0)
+2018-05-08 16:27:50,747 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:27:50,753 - INFO - __main__ : 237 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:27:56,542 - INFO - __main__ : 177 - ExecuteFunction (functionId: 0)
+2018-05-08 16:30:25,780 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:30:25,786 - INFO - __main__ : 238 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:30:34,028 - INFO - __main__ : 178 - ExecuteFunction (functionId: 0)
+2018-05-08 16:35:26,622 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:35:26,638 - INFO - __main__ : 244 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:35:44,275 - INFO - __main__ : 184 - ExecuteFunction (functionId: 0)
+2018-05-08 16:36:16,239 - ERROR - _server : 411 - Exception iterating responses: 'FC Bayern München' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 115, in _scraping
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+  File "__main__.py", line 115, in <listcomp>
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+TypeError: 'FC Bayern München' has type str, but expected one of: int, long, float
+2018-05-08 16:42:38,715 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:42:38,722 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:42:45,124 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:43:16,954 - ERROR - _server : 411 - Exception iterating responses: 'FC Bayern München' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 115, in _scraping
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+  File "__main__.py", line 115, in <listcomp>
+    dualsList.append([SSE.Dual(numData=d) for d in playerGoalsList])
+TypeError: 'FC Bayern München' has type str, but expected one of: int, long, float
+2018-05-08 16:45:41,148 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:45:41,154 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:45:49,003 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:45:49,502 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:45:57,489 - ERROR - _server : 411 - Exception iterating responses: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 102, in _scraping
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "player__name")))
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 401, in _find_element
+    raise e
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-08 16:46:07,491 - ERROR - _server : 411 - Exception iterating responses: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 102, in _scraping
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "player__name")))
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 401, in _find_element
+    raise e
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64)
+
+2018-05-08 16:46:15,012 - INFO - __main__ : 147 - GetCapabilities
+2018-05-08 16:46:15,014 - INFO - __main__ : 170 - Adding to capabilities: ScrapingScript(['score', 'text'])
+2018-05-08 16:46:24,196 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:46:59,941 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _scraping
+    duals = [dualsList[z][i] for z in range(len(dualsList))]
+  File "__main__.py", line 121, in <listcomp>
+    duals = [dualsList[z][i] for z in range(len(dualsList))]
+IndexError: list index out of range
+2018-05-08 16:49:15,557 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:49:15,564 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:49:19,618 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:49:52,487 - ERROR - _server : 411 - Exception iterating responses: 'Dual' object does not support indexing
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Scraping\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _scraping
+    duals = [dualsList[z][i][i] for z in range(len(dualsList))]
+  File "__main__.py", line 121, in <listcomp>
+    duals = [dualsList[z][i][i] for z in range(len(dualsList))]
+TypeError: 'Dual' object does not support indexing
+2018-05-08 16:51:09,955 - INFO - __main__ : 45 - Logging enabled
+2018-05-08 16:51:09,970 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-05-08 16:51:14,536 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-05-08 16:51:29,480 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)

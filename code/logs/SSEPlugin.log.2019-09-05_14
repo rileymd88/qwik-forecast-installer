@@ -1,0 +1,393 @@
+2019-09-05 13:42:20,852 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 13:42:20,863 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 13:43:23,169 - INFO - __main__ : 369 - GetCapabilities
+2019-09-05 13:43:23,172 - INFO - __main__ : 392 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-05 13:43:23,172 - INFO - __main__ : 392 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-05 13:43:34,795 - INFO - __main__ : 369 - GetCapabilities
+2019-09-05 13:43:34,798 - INFO - __main__ : 392 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-05 13:43:34,799 - INFO - __main__ : 392 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-05 13:44:03,622 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:44:09,940 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:44:15,731 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:44:22,891 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:44:22,894 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-09-05 13:44:22,900 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:44:22,904 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-09-05 13:44:43,396 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:52:43,890 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:52:43,894 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-09-05 13:52:43,897 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-09-05 13:52:43,901 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-09-05 13:57:16,612 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 13:57:16,623 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 13:57:17,160 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-05 13:57:17,477 - ERROR - _server : 462 - Exception iterating responses: Found NaN in column ds.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 248, in setup_dataframe
+    raise ValueError('Found NaN in column ds.')
+ValueError: Found NaN in column ds.
+2019-09-05 13:57:17,482 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-05 13:57:17,752 - ERROR - _server : 462 - Exception iterating responses: Found NaN in column ds.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 248, in setup_dataframe
+    raise ValueError('Found NaN in column ds.')
+ValueError: Found NaN in column ds.
+2019-09-05 13:57:22,487 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-05 13:59:13,693 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-05 13:59:13,870 - ERROR - _server : 462 - Exception iterating responses: Found NaN in column ds.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 248, in setup_dataframe
+    raise ValueError('Found NaN in column ds.')
+ValueError: Found NaN in column ds.
+2019-09-05 13:59:13,875 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-05 13:59:14,000 - ERROR - _server : 462 - Exception iterating responses: Found NaN in column ds.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1057, in fit
+    history = self.setup_dataframe(history, initialize_scales=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 248, in setup_dataframe
+    raise ValueError('Found NaN in column ds.')
+ValueError: Found NaN in column ds.
+2019-09-05 14:05:47,967 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:05:47,973 - INFO - __main__ : 473 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:05:56,986 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-05 14:06:10,660 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-05 14:06:17,607 - INFO - __main__ : 413 - ExecuteFunction (functionId: 0)
+2019-09-05 14:13:25,742 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:13:25,749 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:13:35,424 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-05 14:13:38,641 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:13:38,647 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-05 14:13:41,854 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:14:27,487 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-05 14:14:31,299 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:14:31,302 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-05 14:14:34,644 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 348, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:14:51,417 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:14:51,426 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:14:52,730 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:14:56,444 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 346, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:14:56,451 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:14:59,441 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 346, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:15:40,002 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:15:42,189 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 346, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:15:42,191 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:15:44,345 - ERROR - _server : 462 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 346, in _prophet
+    forecastList = forecast['y'].values.tolist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2019-09-05 14:19:54,638 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:19:54,650 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:19:55,727 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:19:59,708 - ERROR - _server : 462 - Exception iterating responses: join() missing 1 required positional argument: 'other'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    forecast = index.join(on='ds')
+TypeError: join() missing 1 required positional argument: 'other'
+2019-09-05 14:19:59,712 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:20:02,833 - ERROR - _server : 462 - Exception iterating responses: join() missing 1 required positional argument: 'other'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    forecast = index.join(on='ds')
+TypeError: join() missing 1 required positional argument: 'other'
+2019-09-05 14:21:19,430 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:21:19,441 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:21:20,981 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:21:25,232 - ERROR - _server : 462 - Exception iterating responses: You are trying to merge on datetime64[ns] and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    forecast = index.join(other=forecast, on='ds')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6815, in join
+    rsuffix=rsuffix, sort=sort)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6830, in _join_compat
+    suffixes=(lsuffix, rsuffix), sort=sort)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 47, in merge
+    validate=validate)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 533, in __init__
+    self._maybe_coerce_merge_keys()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 984, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on datetime64[ns] and int64 columns. If you wish to proceed you should use pd.concat
+2019-09-05 14:21:25,239 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:21:29,589 - ERROR - _server : 462 - Exception iterating responses: You are trying to merge on datetime64[ns] and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    forecast = index.join(other=forecast, on='ds')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6815, in join
+    rsuffix=rsuffix, sort=sort)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 6830, in _join_compat
+    suffixes=(lsuffix, rsuffix), sort=sort)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 47, in merge
+    validate=validate)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 533, in __init__
+    self._maybe_coerce_merge_keys()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\reshape\merge.py", line 984, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on datetime64[ns] and int64 columns. If you wish to proceed you should use pd.concat
+2019-09-05 14:23:44,333 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:23:44,342 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:24:21,424 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:26:14,161 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:26:14,169 - INFO - __main__ : 472 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:26:16,739 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:26:59,524 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-05 14:29:53,414 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:29:53,424 - INFO - __main__ : 474 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:29:59,115 - INFO - __main__ : 414 - ExecuteFunction (functionId: 0)
+2019-09-05 14:30:36,181 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:30:36,191 - INFO - __main__ : 475 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:30:36,331 - INFO - __main__ : 415 - ExecuteFunction (functionId: 0)
+2019-09-05 14:34:55,347 - INFO - __main__ : 45 - Logging enabled
+2019-09-05 14:34:55,357 - INFO - __main__ : 475 - *** Running server in insecure mode on port: 50066 ***
+2019-09-05 14:35:00,533 - INFO - __main__ : 415 - ExecuteFunction (functionId: 0)
+2019-09-05 14:35:47,454 - INFO - __main__ : 415 - ExecuteFunction (functionId: 0)

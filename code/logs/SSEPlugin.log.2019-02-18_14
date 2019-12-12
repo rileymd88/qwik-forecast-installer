@@ -1,0 +1,33 @@
+2019-02-18 14:16:23,532 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:16:48,203 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:19:36,745 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:28,971 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:31,166 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,156 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,156 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,159 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,160 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,164 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:41,238 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 270, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-02-18 14:20:53,216 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:53,236 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:53,256 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:53,256 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2019-02-18 14:20:53,260 - ERROR - _server : 411 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 270, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 775, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-02-18 14:20:53,658 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)

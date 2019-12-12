@@ -1,0 +1,75 @@
+2018-06-03 11:54:08,317 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:54:30,693 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:54:53,906 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:55:01,907 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:55:42,605 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:55:49,538 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:57:11,247 - INFO - __main__ : 43 - Logging enabled
+2018-06-03 11:57:11,259 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-03 11:57:23,579 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-03 11:59:54,633 - INFO - __main__ : 43 - Logging enabled
+2018-06-03 11:59:54,645 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-03 12:00:26,740 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:00:31,902 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:02:29,089 - INFO - __main__ : 43 - Logging enabled
+2018-06-03 12:02:29,104 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-03 12:02:53,506 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:03:05,082 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:03:06,545 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:03:07,869 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:06:20,933 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:06:36,959 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:09:05,276 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:09:45,186 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:10:01,110 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:10:06,163 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:10:13,335 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-03 12:46:24,045 - INFO - __main__ : 43 - Logging enabled
+2018-06-03 12:46:24,061 - INFO - __main__ : 300 - *** Running server in insecure mode on port: 50066 ***
+2018-06-03 12:46:24,209 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:46:24,213 - ERROR - _server : 411 - Exception iterating responses: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 117, in _prophet
+    forecastType = [d.strData for d in row.duals][4]
+IndexError: list index out of range
+2018-06-03 12:47:06,813 - INFO - __main__ : 202 - GetCapabilities
+2018-06-03 12:47:06,813 - INFO - __main__ : 225 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-06-03 12:47:11,454 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:51:00,712 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:51:04,459 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:51:37,675 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:52:02,239 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:52:15,058 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:53:14,249 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:53:38,397 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:54:59,414 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:55:00,419 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 12:57:56,464 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 13:04:44,588 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)
+2018-06-03 13:04:46,088 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 155, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_2569974802724943130._call_sampler
+RuntimeError: Initialization failed.
+2018-06-03 13:05:37,127 - INFO - __main__ : 240 - ExecuteFunction (functionId: 0)

@@ -1,0 +1,295 @@
+2019-08-28 15:28:13,886 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 15:40:15,122 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:40:15,129 - INFO - __main__ : 465 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:40:35,095 - INFO - __main__ : 405 - ExecuteFunction (functionId: 0)
+2019-08-28 15:40:37,828 - ERROR - _server : 462 - Exception iterating responses: 'Series' object has no attribute 'join'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 320, in _prophet
+    forecast = index['ds'].join(forecast.set_index('ds'))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5067, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'join'
+2019-08-28 15:40:37,835 - INFO - __main__ : 405 - ExecuteFunction (functionId: 0)
+2019-08-28 15:40:40,623 - ERROR - _server : 462 - Exception iterating responses: 'Series' object has no attribute 'join'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 320, in _prophet
+    forecast = index['ds'].join(forecast.set_index('ds'))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 5067, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'join'
+2019-08-28 15:41:52,906 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:41:52,912 - INFO - __main__ : 465 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:41:54,484 - INFO - __main__ : 405 - ExecuteFunction (functionId: 0)
+2019-08-28 15:42:48,952 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:42:48,963 - INFO - __main__ : 466 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:42:59,191 - INFO - __main__ : 406 - ExecuteFunction (functionId: 0)
+2019-08-28 15:44:23,924 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:44:23,931 - INFO - __main__ : 466 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:44:32,752 - INFO - __main__ : 406 - ExecuteFunction (functionId: 0)
+2019-08-28 15:46:37,071 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:46:37,076 - INFO - __main__ : 466 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:46:41,627 - INFO - __main__ : 406 - ExecuteFunction (functionId: 0)
+2019-08-28 15:47:54,474 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:47:54,480 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:48:06,235 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 15:49:14,686 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:49:14,691 - INFO - __main__ : 467 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:49:24,761 - INFO - __main__ : 407 - ExecuteFunction (functionId: 0)
+2019-08-28 15:50:25,521 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 15:50:25,530 - INFO - __main__ : 468 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 15:50:30,701 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:20:05,641 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 16:20:05,646 - INFO - __main__ : 468 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 16:20:16,342 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:23:50,418 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 16:23:50,424 - INFO - __main__ : 468 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 16:23:58,473 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:24:08,063 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:24:14,662 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:24:24,302 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:24:42,543 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:24:52,226 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:25:01,705 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:25:12,420 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:25:56,894 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 16:25:56,901 - INFO - __main__ : 468 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 16:26:01,042 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:26:13,438 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:26:19,325 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:26:43,594 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:26:59,937 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:27:50,059 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:28:12,377 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:28:26,047 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:30:52,188 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:30:52,189 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:30:52,192 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:30:52,193 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:31:01,696 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:31:01,699 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:31:01,700 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:31:01,703 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:43,884 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:43,885 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:43,887 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:43,888 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:51,105 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:51,107 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:51,108 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:51,112 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:54,535 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:54,537 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:54,539 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:54,540 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:57,982 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:57,983 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:41:57,986 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:41:57,986 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:00,139 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:00,141 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:00,142 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:00,145 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:01,591 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:01,592 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:01,595 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:01,597 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:03,096 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:03,097 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:03,099 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:03,100 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:04,703 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:04,705 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:04,709 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:04,711 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:19,821 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:19,822 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:42:19,826 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:42:19,827 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 233, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:43:50,840 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 16:43:50,845 - INFO - __main__ : 468 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 16:44:05,951 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:44:05,954 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:44:05,957 - INFO - __main__ : 408 - ExecuteFunction (functionId: 0)
+2019-08-28 16:44:05,958 - ERROR - _server : 462 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 234, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2019-08-28 16:45:15,903 - INFO - __main__ : 45 - Logging enabled
+2019-08-28 16:45:15,910 - INFO - __main__ : 469 - *** Running server in insecure mode on port: 50066 ***
+2019-08-28 16:45:18,711 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-08-28 16:45:18,716 - ERROR - _server : 462 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 392, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 212, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 51, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 317, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length
+2019-08-28 16:45:18,736 - INFO - __main__ : 409 - ExecuteFunction (functionId: 0)
+2019-08-28 16:45:18,740 - ERROR - _server : 462 - Exception iterating responses: arrays must all be same length
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 261, in _prophet
+    dataFrame = pd.DataFrame({'ds': dateStampList,'y': figuresList})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 392, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 212, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 51, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\internals\construction.py", line 317, in extract_index
+    raise ValueError('arrays must all be same length')
+ValueError: arrays must all be same length

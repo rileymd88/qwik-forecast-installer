@@ -1,0 +1,225 @@
+2018-07-22 20:56:38,915 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 20:56:38,950 - INFO - __main__ : 310 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 20:57:47,650 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 20:57:51,095 - ERROR - _server : 411 - Exception iterating responses: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 171, in _prophet
+    if item['firstField'] == row:
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 1573, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2018-07-22 20:59:28,917 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 20:59:28,928 - INFO - __main__ : 311 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:00:42,887 - INFO - __main__ : 251 - ExecuteFunction (functionId: 0)
+2018-07-22 21:00:44,488 - INFO - __main__ : 251 - ExecuteFunction (functionId: 0)
+2018-07-22 21:01:56,809 - INFO - __main__ : 251 - ExecuteFunction (functionId: 0)
+2018-07-22 21:01:56,827 - INFO - __main__ : 251 - ExecuteFunction (functionId: 0)
+2018-07-22 21:07:25,567 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:07:25,578 - INFO - __main__ : 310 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:08:05,499 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:08:23,967 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:08:37,705 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:08:39,534 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:09:05,261 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:09:07,008 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:09:37,373 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:09:37,375 - INFO - __main__ : 250 - ExecuteFunction (functionId: 0)
+2018-07-22 21:10:34,641 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:10:34,651 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:11:12,074 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:11:12,075 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:30:43,529 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:30:43,539 - INFO - __main__ : 314 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:30:52,876 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:30:57,347 - ERROR - _server : 411 - Exception iterating responses: type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.datetime.strptime(date, '%Y-%m-%d  00:00:00')
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2018-07-22 21:30:57,358 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:30:58,927 - ERROR - _server : 411 - Exception iterating responses: type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.datetime.strptime(date, '%Y-%m-%d  00:00:00')
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2018-07-22 21:31:42,797 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:31:42,807 - INFO - __main__ : 314 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:32:26,629 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:32:26,630 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:32:30,597 - ERROR - _server : 411 - Exception iterating responses: strptime() argument 1 must be str, not Timestamp
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.strptime(date, '%Y-%m-%d  00:00:00')
+TypeError: strptime() argument 1 must be str, not Timestamp
+2018-07-22 21:32:30,599 - ERROR - _server : 411 - Exception iterating responses: strptime() argument 1 must be str, not Timestamp
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.strptime(date, '%Y-%m-%d  00:00:00')
+TypeError: strptime() argument 1 must be str, not Timestamp
+2018-07-22 21:33:27,165 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:33:27,175 - INFO - __main__ : 313 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:34:07,329 - INFO - __main__ : 253 - ExecuteFunction (functionId: 0)
+2018-07-22 21:34:09,012 - ERROR - _server : 411 - Exception iterating responses: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.date(date.year, date.month, date.day)
+TypeError: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+2018-07-22 21:34:09,019 - INFO - __main__ : 253 - ExecuteFunction (functionId: 0)
+2018-07-22 21:34:10,616 - ERROR - _server : 411 - Exception iterating responses: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 172, in _prophet
+    dt = datetime.date(date.year, date.month, date.day)
+TypeError: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+2018-07-22 21:34:59,512 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:34:59,523 - INFO - __main__ : 314 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:35:17,320 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:35:21,936 - ERROR - _server : 411 - Exception iterating responses: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 173, in _prophet
+    dt = datetime.date(dt.year, dt.month, dt.day)
+TypeError: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+2018-07-22 21:35:24,308 - INFO - __main__ : 254 - ExecuteFunction (functionId: 0)
+2018-07-22 21:35:26,447 - ERROR - _server : 411 - Exception iterating responses: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 173, in _prophet
+    dt = datetime.date(dt.year, dt.month, dt.day)
+TypeError: descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+2018-07-22 21:39:09,032 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:39:09,043 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:39:23,957 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:39:28,300 - ERROR - _server : 411 - Exception iterating responses: time data '2013-10-01' does not match format '%Y-%m-%d  00:00:00'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 171, in _prophet
+    dt = datetime.strptime(item['firstField'], '%Y-%m-%d  00:00:00')
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2013-10-01' does not match format '%Y-%m-%d  00:00:00'
+2018-07-22 21:39:28,311 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:39:29,905 - ERROR - _server : 411 - Exception iterating responses: time data '2013-10-01' does not match format '%Y-%m-%d  00:00:00'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 171, in _prophet
+    dt = datetime.strptime(item['firstField'], '%Y-%m-%d  00:00:00')
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2013-10-01' does not match format '%Y-%m-%d  00:00:00'
+2018-07-22 21:40:04,477 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:40:04,486 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:40:26,950 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:40:31,423 - ERROR - _server : 411 - Exception iterating responses: ufunc 'add' did not contain a loop with signature matching types dtype('<U32') dtype('<U32') dtype('<U32')
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 174, in _prophet
+    forecast.at[index, "yhat"] = forecast.at[index,'yhat'] + item["adjustment"]
+TypeError: ufunc 'add' did not contain a loop with signature matching types dtype('<U32') dtype('<U32') dtype('<U32')
+2018-07-22 21:41:43,797 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:41:43,807 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:42:15,823 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:42:15,824 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:42:33,407 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:42:33,410 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:42:45,614 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:42:45,622 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:43:05,332 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:43:05,358 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:43:15,671 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:43:15,672 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:44:13,462 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:44:13,464 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:44:17,844 - ERROR - _server : 411 - Exception iterating responses: the JSON object must be str, bytes or bytearray, not 'list'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 168, in _prophet
+    adjJson = json.loads(adjustments)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\json\__init__.py", line 348, in loads
+    'not {!r}'.format(s.__class__.__name__))
+TypeError: the JSON object must be str, bytes or bytearray, not 'list'
+2018-07-22 21:44:17,859 - ERROR - _server : 411 - Exception iterating responses: the JSON object must be str, bytes or bytearray, not 'list'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 168, in _prophet
+    adjJson = json.loads(adjustments)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\json\__init__.py", line 348, in loads
+    'not {!r}'.format(s.__class__.__name__))
+TypeError: the JSON object must be str, bytes or bytearray, not 'list'
+2018-07-22 21:45:13,492 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:45:13,507 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:45:20,177 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:45:23,227 - ERROR - _server : 411 - Exception iterating responses: the JSON object must be str, bytes or bytearray, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 168, in _prophet
+    adjJson = json.loads(adjustments)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\json\__init__.py", line 348, in loads
+    'not {!r}'.format(s.__class__.__name__))
+TypeError: the JSON object must be str, bytes or bytearray, not 'dict'
+2018-07-22 21:45:23,237 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:45:27,945 - ERROR - _server : 411 - Exception iterating responses: the JSON object must be str, bytes or bytearray, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 168, in _prophet
+    adjJson = json.loads(adjustments)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\json\__init__.py", line 348, in loads
+    'not {!r}'.format(s.__class__.__name__))
+TypeError: the JSON object must be str, bytes or bytearray, not 'dict'
+2018-07-22 21:48:45,271 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:48:45,282 - INFO - __main__ : 312 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:48:52,119 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:48:55,307 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:49:12,433 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:49:22,243 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:49:22,246 - INFO - __main__ : 252 - ExecuteFunction (functionId: 0)
+2018-07-22 21:55:50,867 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 21:55:50,878 - INFO - __main__ : 317 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 21:56:10,319 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:56:26,190 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:56:26,191 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:56:37,742 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:56:37,743 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:56:51,218 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:57:35,654 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 21:57:35,660 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:00:54,565 - INFO - __main__ : 44 - Logging enabled
+2018-07-22 22:00:54,575 - INFO - __main__ : 317 - *** Running server in insecure mode on port: 50066 ***
+2018-07-22 22:01:15,443 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:01:31,177 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:01:37,389 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:01:37,393 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:01:49,028 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:01:49,030 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:02:00,961 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:02:00,965 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:02:19,182 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:02:19,185 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:04:41,043 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-22 22:04:41,043 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)

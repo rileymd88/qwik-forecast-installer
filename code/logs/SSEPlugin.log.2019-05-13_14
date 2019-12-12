@@ -1,0 +1,13 @@
+2019-05-09 13:29:10,268 - INFO - __main__ : 346 - GetCapabilities
+2019-05-09 13:29:10,276 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-09 13:29:10,277 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-13 14:11:04,175 - INFO - __main__ : 44 - Logging enabled
+2019-05-13 14:11:04,220 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-05-13 14:13:31,139 - INFO - __main__ : 346 - GetCapabilities
+2019-05-13 14:13:31,141 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-13 14:13:31,141 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-05-13 14:41:09,859 - INFO - __main__ : 44 - Logging enabled
+2019-05-13 14:41:09,879 - INFO - __main__ : 444 - *** Running server in insecure mode on port: 50066 ***
+2019-05-13 14:44:59,287 - INFO - __main__ : 346 - GetCapabilities
+2019-05-13 14:44:59,297 - INFO - __main__ : 369 - Adding to capabilities: Prophet(['adjustments', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers', 'type'])
+2019-05-13 14:44:59,306 - INFO - __main__ : 369 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])

@@ -1,0 +1,279 @@
+2019-09-17 16:36:59,771 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:12,007 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:38:12,016 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:38:29,391 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:29,410 - ERROR - _server : 462 - Exception iterating responses: name 'true' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=true,changepoint_prior_scale=changePoint)
+NameError: name 'true' is not defined
+2019-09-17 16:38:29,415 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:29,429 - ERROR - _server : 462 - Exception iterating responses: name 'true' is not defined
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=true,changepoint_prior_scale=changePoint)
+NameError: name 'true' is not defined
+2019-09-17 16:38:47,449 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:38:47,454 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:38:51,590 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:51,603 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'take_log'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=True,changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'take_log'
+2019-09-17 16:38:51,605 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:51,618 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'take_log'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=True,changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'take_log'
+2019-09-17 16:38:55,695 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:55,703 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'take_log'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=True,changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'take_log'
+2019-09-17 16:38:55,705 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:38:55,720 - ERROR - _server : 462 - Exception iterating responses: __init__() got an unexpected keyword argument 'take_log'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 301, in _prophet
+    m = Prophet(seasonality_mode='multiplicative', take_log=True,changepoint_prior_scale=changePoint)
+TypeError: __init__() got an unexpected keyword argument 'take_log'
+2019-09-17 16:42:17,343 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:42:17,348 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:42:25,409 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:42:25,421 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'components'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4, components=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'components'
+2019-09-17 16:42:25,423 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:42:25,437 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'components'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4, components=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'components'
+2019-09-17 16:43:45,132 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:43:45,140 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:43:53,125 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:43:53,138 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() missing 1 required positional argument: 'fourier_order'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4)
+TypeError: add_seasonality() missing 1 required positional argument: 'fourier_order'
+2019-09-17 16:43:53,140 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:43:53,151 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() missing 1 required positional argument: 'fourier_order'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4)
+TypeError: add_seasonality() missing 1 required positional argument: 'fourier_order'
+2019-09-17 16:43:54,671 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:43:54,679 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() missing 1 required positional argument: 'fourier_order'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4)
+TypeError: add_seasonality() missing 1 required positional argument: 'fourier_order'
+2019-09-17 16:43:54,683 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:43:54,706 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() missing 1 required positional argument: 'fourier_order'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(name='monthly', period=30.4)
+TypeError: add_seasonality() missing 1 required positional argument: 'fourier_order'
+2019-09-17 16:44:14,385 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:44:14,394 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:44:47,519 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:47:16,014 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:47:38,027 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:47:38,033 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:47:40,678 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:48:05,510 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:52:31,835 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:57:15,609 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:57:15,616 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:57:26,279 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:57:32,669 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:58:09,251 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:58:09,257 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:58:16,676 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:58:28,176 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:58:28,183 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:58:31,497 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:58:37,095 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:47,042 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 16:59:47,047 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 16:59:52,740 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:52,748 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:52,751 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:52,767 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,068 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,075 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,077 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,085 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,553 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,559 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,561 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,570 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,660 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,668 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,669 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,676 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,793 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,799 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,801 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,809 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,928 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,935 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:57,937 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:57,943 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,062 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,070 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,072 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,079 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,194 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,200 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,202 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,211 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,303 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,313 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 16:59:58,319 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 16:59:58,331 - ERROR - _server : 462 - Exception iterating responses: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 302, in _prophet
+    m.add_seasonality(seasonality_mode='multiplicative', name='yearly', period=365.25, fourier_order=5)
+TypeError: add_seasonality() got an unexpected keyword argument 'seasonality_mode'
+2019-09-17 17:00:23,987 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 17:00:23,993 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 17:00:29,146 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 17:00:37,673 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 17:00:42,153 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 17:00:47,214 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 17:00:50,842 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 17:00:54,582 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)

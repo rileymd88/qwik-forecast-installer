@@ -1,0 +1,11 @@
+2019-09-20 11:02:54,949 - INFO - __main__ : 45 - Logging enabled
+2019-09-20 11:02:54,962 - INFO - __main__ : 483 - *** Running server in insecure mode on port: 50066 ***
+2019-09-20 11:04:08,379 - INFO - __main__ : 385 - GetCapabilities
+2019-09-20 11:04:08,381 - INFO - __main__ : 408 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastLevel', 'forecastPeriod', 'forecastReturnType', 'fourierOrder', 'outliers'])
+2019-09-20 11:04:08,381 - INFO - __main__ : 408 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-20 11:04:41,591 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 11:04:50,213 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 11:04:57,345 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 11:05:17,184 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 11:05:30,790 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-09-20 11:10:27,144 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)

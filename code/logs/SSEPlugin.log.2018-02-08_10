@@ -1,0 +1,6 @@
+2018-02-08 10:50:49,894 - INFO - __main__ : 109 - GetCapabilities
+2018-02-08 10:50:49,894 - INFO - __main__ : 132 - Adding to capabilities: TrevorExample(['stringInput'])
+2018-02-08 10:50:49,909 - INFO - __main__ : 109 - GetCapabilities
+2018-02-08 10:50:49,909 - INFO - __main__ : 132 - Adding to capabilities: TrevorExample(['stringInput'])
+2018-02-08 10:52:02,754 - INFO - __main__ : 109 - GetCapabilities
+2018-02-08 10:52:02,754 - INFO - __main__ : 132 - Adding to capabilities: TrevorExample(['stringInput'])

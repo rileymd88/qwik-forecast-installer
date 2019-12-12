@@ -1,0 +1,913 @@
+2019-08-27 17:15:15,253 - INFO - __main__ : 351 - GetCapabilities
+2019-08-27 17:15:15,259 - INFO - __main__ : 374 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:15:15,264 - INFO - __main__ : 374 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:22:11,133 - INFO - __main__ : 351 - GetCapabilities
+2019-08-27 17:22:11,135 - INFO - __main__ : 374 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:22:11,139 - INFO - __main__ : 374 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:27:16,250 - INFO - __main__ : 351 - GetCapabilities
+2019-08-27 17:27:16,252 - INFO - __main__ : 374 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:27:16,254 - INFO - __main__ : 374 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:29:56,483 - INFO - __main__ : 351 - GetCapabilities
+2019-08-27 17:29:56,484 - INFO - __main__ : 374 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:29:56,487 - INFO - __main__ : 374 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:33:16,954 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 17:33:16,966 - INFO - __main__ : 458 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 17:33:27,394 - INFO - __main__ : 360 - GetCapabilities
+2019-08-27 17:33:27,395 - INFO - __main__ : 383 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:33:27,396 - INFO - __main__ : 383 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:35:55,996 - INFO - __main__ : 398 - ExecuteFunction (functionId: 0)
+2019-08-27 17:35:56,052 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 298, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:35:56,058 - INFO - __main__ : 398 - ExecuteFunction (functionId: 0)
+2019-08-27 17:35:56,106 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 298, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:45:13,573 - INFO - __main__ : 360 - GetCapabilities
+2019-08-27 17:45:13,574 - INFO - __main__ : 383 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 17:45:13,574 - INFO - __main__ : 383 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 17:47:53,126 - INFO - __main__ : 398 - ExecuteFunction (functionId: 0)
+2019-08-27 17:47:53,186 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 298, in _prophet
+    m.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:47:53,190 - INFO - __main__ : 398 - ExecuteFunction (functionId: 0)
+2019-08-27 17:47:53,272 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 298, in _prophet
+    m.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:12,656 - INFO - __main__ : 44 - Logging enabled
+2019-08-27 17:54:12,664 - INFO - __main__ : 482 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 17:54:23,810 - INFO - __main__ : 422 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:23,823 - ERROR - _server : 411 - Exception iterating responses: name 'math' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    if math.isnan(tmpChangePoint):
+NameError: name 'math' is not defined
+2019-08-27 17:54:23,826 - INFO - __main__ : 422 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:23,841 - ERROR - _server : 411 - Exception iterating responses: name 'math' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 249, in _prophet
+    if math.isnan(tmpChangePoint):
+NameError: name 'math' is not defined
+2019-08-27 17:54:46,294 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 17:54:46,304 - INFO - __main__ : 483 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 17:54:50,069 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:50,147 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:50,151 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:50,230 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:52,989 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:53,049 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:53,051 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:53,133 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:53,808 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:53,867 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:54:53,869 - INFO - __main__ : 423 - ExecuteFunction (functionId: 0)
+2019-08-27 17:54:53,939 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 323, in _prophet
+    forecast = m.predict(future)
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:57:59,129 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 17:57:59,136 - INFO - __main__ : 489 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 17:58:07,915 - INFO - __main__ : 429 - ExecuteFunction (functionId: 0)
+2019-08-27 17:58:07,995 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 322, in _prophet
+    if not m:
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:58:07,998 - INFO - __main__ : 429 - ExecuteFunction (functionId: 0)
+2019-08-27 17:58:08,097 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 322, in _prophet
+    if not m:
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:58:22,309 - INFO - __main__ : 429 - ExecuteFunction (functionId: 0)
+2019-08-27 17:58:22,372 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 322, in _prophet
+    if not m:
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:58:22,378 - INFO - __main__ : 429 - ExecuteFunction (functionId: 0)
+2019-08-27 17:58:22,435 - ERROR - _server : 411 - Exception iterating responses: local variable 'm' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 322, in _prophet
+    if not m:
+UnboundLocalError: local variable 'm' referenced before assignment
+2019-08-27 17:59:18,141 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 17:59:18,151 - INFO - __main__ : 484 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 17:59:19,670 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 17:59:19,742 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    forecast = m.predict(future)
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 17:59:19,746 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 17:59:19,842 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    forecast = m.predict(future)
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 18:01:07,061 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 18:01:07,132 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    # fit data to prophet
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 18:01:07,135 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 18:01:07,209 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    # fit data to prophet
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 18:01:13,010 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 18:01:13,091 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    # fit data to prophet
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 18:01:13,094 - INFO - __main__ : 424 - ExecuteFunction (functionId: 0)
+2019-08-27 18:01:13,186 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    # fit data to prophet
+AttributeError: 'NoneType' object has no attribute 'predict'
+2019-08-27 18:01:46,390 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:01:46,401 - INFO - __main__ : 490 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:01:48,477 - INFO - __main__ : 430 - ExecuteFunction (functionId: 0)
+2019-08-27 18:01:55,227 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 327, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:01:55,236 - INFO - __main__ : 430 - ExecuteFunction (functionId: 0)
+2019-08-27 18:02:02,335 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 327, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:02:54,464 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:02:54,474 - INFO - __main__ : 491 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:02:57,078 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:02:59,677 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:02:59,677 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:03:02,250 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:06:04,555 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:06:04,561 - INFO - __main__ : 491 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:06:14,364 - INFO - __main__ : 393 - GetCapabilities
+2019-08-27 18:06:14,366 - INFO - __main__ : 416 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'max', 'min', 'outliers', 'type'])
+2019-08-27 18:06:14,366 - INFO - __main__ : 416 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 18:06:48,038 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:06:55,182 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:06:55,197 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:07:01,912 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:08:28,792 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:08:28,799 - INFO - __main__ : 491 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:08:39,561 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:08:45,898 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:08:45,905 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:08:51,738 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:08:51,941 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:08:57,427 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:09:51,276 - INFO - __main__ : 431 - ExecuteFunction (functionId: 0)
+2019-08-27 18:09:56,619 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 328, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:15:02,333 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:15:02,339 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:15:11,357 - INFO - __main__ : 399 - GetCapabilities
+2019-08-27 18:15:11,358 - INFO - __main__ : 422 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'max', 'min', 'outliers'])
+2019-08-27 18:15:11,359 - INFO - __main__ : 422 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 18:15:20,434 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:15:20,441 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:15:51,065 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:15:55,669 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 334, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:15:55,673 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:15:57,622 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 334, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:18:16,410 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:18:16,417 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:18:25,196 - INFO - __main__ : 399 - GetCapabilities
+2019-08-27 18:18:25,198 - INFO - __main__ : 422 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'max', 'min', 'outliers'])
+2019-08-27 18:18:25,199 - INFO - __main__ : 422 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 18:19:42,591 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:19:42,601 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:20:10,738 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:20:10,746 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 243, in _prophet
+    forecastPeriods = int([d.numData for d in row.duals][4])
+ValueError: cannot convert float NaN to integer
+2019-08-27 18:20:10,748 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:20:10,757 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 243, in _prophet
+    forecastPeriods = int([d.numData for d in row.duals][4])
+ValueError: cannot convert float NaN to integer
+2019-08-27 18:21:38,956 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:21:40,860 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:21:40,863 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:21:42,906 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:22:17,204 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:22:17,212 - INFO - __main__ : 497 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:22:29,017 - INFO - __main__ : 399 - GetCapabilities
+2019-08-27 18:22:29,018 - INFO - __main__ : 422 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'max', 'min', 'outliers'])
+2019-08-27 18:22:29,018 - INFO - __main__ : 422 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-08-27 18:23:47,503 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:23:53,512 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:23:53,515 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:23:59,487 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:25:17,507 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:25:22,501 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:25:22,503 - INFO - __main__ : 437 - ExecuteFunction (functionId: 0)
+2019-08-27 18:25:27,662 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 325, in _prophet
+    m.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:25:55,595 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:25:55,603 - INFO - __main__ : 498 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:26:12,683 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:26:12,694 - INFO - __main__ : 499 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:26:25,945 - INFO - __main__ : 439 - ExecuteFunction (functionId: 0)
+2019-08-27 18:26:26,012 - ERROR - _server : 411 - Exception iterating responses: bad operand type for unary -: 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 294, in _prophet
+    dataFrame.drop(dataFrame.tail(forecastPeriods).index, inplace=True)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4029, in tail
+    return self.iloc[-n:]
+TypeError: bad operand type for unary -: 'NoneType'
+2019-08-27 18:26:26,017 - INFO - __main__ : 439 - ExecuteFunction (functionId: 0)
+2019-08-27 18:26:26,082 - ERROR - _server : 411 - Exception iterating responses: bad operand type for unary -: 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 294, in _prophet
+    dataFrame.drop(dataFrame.tail(forecastPeriods).index, inplace=True)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 4029, in tail
+    return self.iloc[-n:]
+TypeError: bad operand type for unary -: 'NoneType'
+2019-08-27 18:31:15,999 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:31:16,006 - INFO - __main__ : 501 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:31:22,876 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:31:25,104 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:31:25,108 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:31:27,230 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:32:56,948 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:32:56,957 - INFO - __main__ : 501 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:33:07,338 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:33:09,458 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:33:09,461 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:33:11,660 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:33:16,165 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:33:16,172 - INFO - __main__ : 501 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:33:22,768 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:33:24,686 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:33:24,690 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:33:26,453 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 329, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+2019-08-27 18:33:54,572 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:33:54,584 - INFO - __main__ : 501 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:34:02,697 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:34:41,311 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:34:41,322 - INFO - __main__ : 501 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:34:44,681 - INFO - __main__ : 441 - ExecuteFunction (functionId: 0)
+2019-08-27 18:36:08,015 - INFO - __main__ : 45 - Logging enabled
+2019-08-27 18:36:08,023 - INFO - __main__ : 496 - *** Running server in insecure mode on port: 50066 ***
+2019-08-27 18:36:10,306 - INFO - __main__ : 436 - ExecuteFunction (functionId: 0)
+2019-08-27 18:36:12,477 - ERROR - _server : 411 - Exception iterating responses: Initialization failed.
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 836, in fit
+    dat, init=stan_init, iter=1e4, **kwargs)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 324, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 840, in fit
+    **kwargs
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pystan\model.py", line 510, in optimizing
+    ret, sample = fit._call_sampler(stan_args)
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 876, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.StanFit4Model._call_sampler
+  File "stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888.pyx", line 401, in stanfit4anon_model_1988b9d517e3c16daf27a07f09e3de97_599606888._call_sampler
+RuntimeError: Initialization failed.

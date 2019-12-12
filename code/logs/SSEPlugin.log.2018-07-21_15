@@ -1,0 +1,22 @@
+2018-07-21 15:37:10,570 - INFO - __main__ : 43 - Logging enabled
+2018-07-21 15:37:10,633 - INFO - __main__ : 299 - *** Running server in insecure mode on port: 50066 ***
+2018-07-21 15:42:22,702 - INFO - __main__ : 43 - Logging enabled
+2018-07-21 15:42:22,811 - INFO - __main__ : 299 - *** Running server in insecure mode on port: 50066 ***
+2018-07-21 15:48:48,401 - INFO - __main__ : 201 - GetCapabilities
+2018-07-21 15:48:48,429 - INFO - __main__ : 224 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-07-21 15:49:47,914 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 15:49:53,061 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 15:56:50,130 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 15:57:44,292 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 15:57:52,786 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 15:59:03,868 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:00:06,327 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:00:48,232 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:02:54,058 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:02:57,792 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:05:10,188 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:23:23,934 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:24:07,026 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:25:01,541 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:25:15,460 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-21 16:26:42,681 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)

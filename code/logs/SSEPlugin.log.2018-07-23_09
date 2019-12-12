@@ -1,0 +1,13 @@
+2018-07-23 09:16:22,038 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:16:46,922 - INFO - __main__ : 44 - Logging enabled
+2018-07-23 09:16:46,956 - INFO - __main__ : 317 - *** Running server in insecure mode on port: 50066 ***
+2018-07-23 09:18:23,384 - INFO - __main__ : 44 - Logging enabled
+2018-07-23 09:18:23,397 - INFO - __main__ : 317 - *** Running server in insecure mode on port: 50066 ***
+2018-07-23 09:19:06,836 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:19:06,838 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:19:18,673 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:19:18,680 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:19:35,263 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:19:35,265 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:20:38,643 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)
+2018-07-23 09:20:38,644 - INFO - __main__ : 257 - ExecuteFunction (functionId: 0)

@@ -1,0 +1,4 @@
+2018-06-29 12:10:23,016 - INFO - __main__ : 43 - Logging enabled
+2018-06-29 12:10:23,115 - INFO - __main__ : 299 - *** Running server in insecure mode on port: 50066 ***
+2018-06-29 12:17:00,564 - INFO - __main__ : 201 - GetCapabilities
+2018-06-29 12:17:00,646 - INFO - __main__ : 224 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])

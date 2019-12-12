@@ -1,0 +1,70 @@
+2019-09-17 12:14:26,789 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 12:14:26,802 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 12:15:10,298 - INFO - __main__ : 372 - GetCapabilities
+2019-09-17 12:15:10,300 - INFO - __main__ : 395 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-17 12:15:10,300 - INFO - __main__ : 395 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-17 12:15:38,840 - INFO - __main__ : 372 - GetCapabilities
+2019-09-17 12:15:38,841 - INFO - __main__ : 395 - Adding to capabilities: Prophet(['adjustments', 'changePoint', 'dateStamp', 'figures', 'forecastPeriod', 'forecastReturnType', 'forecastType', 'outliers'])
+2019-09-17 12:15:38,841 - INFO - __main__ : 395 - Adding to capabilities: ProphetScript(['dateStamp', 'figures', 'forecastPeriod', 'forecastType'])
+2019-09-17 12:15:45,561 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:15:54,531 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:16:05,390 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:16:13,994 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:16:24,462 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:16:36,435 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:17:27,905 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:17:33,263 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 12:17:37,692 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:12:19,817 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:13:19,590 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:13:32,549 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:13:32,558 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 294, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-17 13:13:32,567 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:13:32,576 - ERROR - _server : 462 - Exception iterating responses: Dataframe has less than 2 non-NaN rows.
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 294, in _prophet
+    m.fit(dataFrame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\fbprophet\forecaster.py", line 1054, in fit
+    raise ValueError('Dataframe has less than 2 non-NaN rows.')
+ValueError: Dataframe has less than 2 non-NaN rows.
+2019-09-17 13:13:52,907 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:13:56,851 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:14:01,005 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:14:07,282 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:14:21,843 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:22:37,406 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 13:22:37,417 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 13:22:41,004 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:23:03,808 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 13:23:03,818 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 13:23:07,681 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:23:22,295 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:25:15,306 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 13:25:15,316 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 13:25:19,058 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:25:27,244 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:25:33,443 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:25:40,270 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:25:44,402 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:26:43,590 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 13:26:43,602 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 13:26:51,713 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:08,256 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:21,900 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:41,132 - INFO - __main__ : 45 - Logging enabled
+2019-09-17 13:27:41,140 - INFO - __main__ : 470 - *** Running server in insecure mode on port: 50066 ***
+2019-09-17 13:27:42,013 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:46,867 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:52,008 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:27:57,189 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)
+2019-09-17 13:28:14,828 - INFO - __main__ : 410 - ExecuteFunction (functionId: 0)

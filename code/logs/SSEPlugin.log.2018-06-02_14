@@ -1,0 +1,675 @@
+2018-06-02 11:03:38,914 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-02 11:04:06,515 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-02 11:08:50,429 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 11:08:50,452 - INFO - __main__ : 262 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 11:09:04,930 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:09:25,377 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:09:25,382 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:10:43,422 - INFO - __main__ : 164 - GetCapabilities
+2018-06-02 11:10:43,422 - INFO - __main__ : 187 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-02 11:10:54,190 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:10:56,397 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:11:54,192 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:11:56,524 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:12:28,433 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:16:53,206 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:18:32,662 - INFO - __main__ : 164 - GetCapabilities
+2018-06-02 11:18:32,662 - INFO - __main__ : 187 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-02 11:19:47,830 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:19:51,130 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:23:45,558 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:37:21,947 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:37:54,504 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:45:46,748 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:47:33,856 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:49:27,058 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:50:11,175 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 11:50:29,463 - INFO - __main__ : 202 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:00,089 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 12:14:00,089 - INFO - __main__ : 267 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 12:14:09,987 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:18,674 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:23,006 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:28,282 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:34,264 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:14:59,178 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:15:02,785 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:15:08,525 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:15:23,553 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:15:26,877 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:15:58,621 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:17:21,458 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:17:21,572 - ERROR - _server : 411 - Exception iterating responses: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 104, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: cannot convert float NaN to integer
+2018-06-02 12:24:13,826 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:25:13,769 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:26:54,166 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:26:55,198 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:26:58,819 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:28:50,425 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:30:58,224 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:30:59,013 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:30:59,790 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:38:54,288 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 12:38:54,310 - INFO - __main__ : 270 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 12:39:27,379 - INFO - __main__ : 172 - GetCapabilities
+2018-06-02 12:39:27,380 - INFO - __main__ : 195 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'outliers'])
+2018-06-02 12:39:32,183 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:39:38,048 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:39:38,707 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:39:39,166 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:40:56,745 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:41:02,390 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:41:03,487 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:41:03,836 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:41:04,503 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:41:13,246 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:42:13,510 - INFO - __main__ : 172 - GetCapabilities
+2018-06-02 12:42:13,511 - INFO - __main__ : 195 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'outliers'])
+2018-06-02 12:42:18,102 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:42:23,837 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:42:24,615 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:42:25,298 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:42:59,440 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:43:35,828 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:43:43,157 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:43:43,941 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:43:44,607 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:44:21,313 - INFO - __main__ : 210 - ExecuteFunction (functionId: 0)
+2018-06-02 12:44:54,186 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 12:44:54,186 - INFO - __main__ : 267 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 12:45:16,008 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:45:18,713 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:45:19,280 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:45:19,741 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:45:42,959 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:46:24,841 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:48:51,187 - INFO - __main__ : 207 - ExecuteFunction (functionId: 0)
+2018-06-02 12:53:28,709 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 12:53:28,717 - INFO - __main__ : 275 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 12:53:55,317 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:49,585 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:49,589 - ERROR - _server : 411 - Exception iterating responses: could not convert string to Timestamp
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 451, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 182, in pandas._libs.tslibs.np_datetime._string_to_dts
+ValueError: Error parsing datetime string "2" at position 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 488, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\parsing.pyx", line 82, in pandas._libs.tslibs.parsing.parse_datetime_string
+ValueError: Given date string not likely a datetime.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlier) & (df['ds'] < outlier), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 117, in wrapper
+    other = _to_m8(other, tz=self.tz)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 2876, in _to_m8
+    key = Timestamp(key, tz=tz)
+  File "pandas\_libs\tslibs\timestamps.pyx", line 635, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 275, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 491, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+ValueError: could not convert string to Timestamp
+2018-06-02 12:54:51,011 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:51,017 - ERROR - _server : 411 - Exception iterating responses: could not convert string to Timestamp
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 451, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 182, in pandas._libs.tslibs.np_datetime._string_to_dts
+ValueError: Error parsing datetime string "2" at position 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 488, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\parsing.pyx", line 82, in pandas._libs.tslibs.parsing.parse_datetime_string
+ValueError: Given date string not likely a datetime.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlier) & (df['ds'] < outlier), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 117, in wrapper
+    other = _to_m8(other, tz=self.tz)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 2876, in _to_m8
+    key = Timestamp(key, tz=tz)
+  File "pandas\_libs\tslibs\timestamps.pyx", line 635, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 275, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 491, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+ValueError: could not convert string to Timestamp
+2018-06-02 12:54:51,740 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:51,747 - ERROR - _server : 411 - Exception iterating responses: could not convert string to Timestamp
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 451, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 182, in pandas._libs.tslibs.np_datetime._string_to_dts
+ValueError: Error parsing datetime string "2" at position 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 488, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\parsing.pyx", line 82, in pandas._libs.tslibs.parsing.parse_datetime_string
+ValueError: Given date string not likely a datetime.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlier) & (df['ds'] < outlier), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 117, in wrapper
+    other = _to_m8(other, tz=self.tz)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 2876, in _to_m8
+    key = Timestamp(key, tz=tz)
+  File "pandas\_libs\tslibs\timestamps.pyx", line 635, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 275, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 491, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+ValueError: could not convert string to Timestamp
+2018-06-02 12:54:54,733 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:54,739 - ERROR - _server : 411 - Exception iterating responses: could not convert string to Timestamp
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 451, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 182, in pandas._libs.tslibs.np_datetime._string_to_dts
+ValueError: Error parsing datetime string "2" at position 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 488, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\parsing.pyx", line 82, in pandas._libs.tslibs.parsing.parse_datetime_string
+ValueError: Given date string not likely a datetime.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlier) & (df['ds'] < outlier), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 117, in wrapper
+    other = _to_m8(other, tz=self.tz)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 2876, in _to_m8
+    key = Timestamp(key, tz=tz)
+  File "pandas\_libs\tslibs\timestamps.pyx", line 635, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 275, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 491, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+ValueError: could not convert string to Timestamp
+2018-06-02 12:54:59,306 - INFO - __main__ : 215 - ExecuteFunction (functionId: 0)
+2018-06-02 12:54:59,312 - ERROR - _server : 411 - Exception iterating responses: could not convert string to Timestamp
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 451, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 182, in pandas._libs.tslibs.np_datetime._string_to_dts
+ValueError: Error parsing datetime string "2" at position 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas\_libs\tslibs\conversion.pyx", line 488, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "pandas\_libs\tslibs\parsing.pyx", line 82, in pandas._libs.tslibs.parsing.parse_datetime_string
+ValueError: Given date string not likely a datetime.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlier) & (df['ds'] < outlier), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 117, in wrapper
+    other = _to_m8(other, tz=self.tz)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 2876, in _to_m8
+    key = Timestamp(key, tz=tz)
+  File "pandas\_libs\tslibs\timestamps.pyx", line 635, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 275, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 491, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+ValueError: could not convert string to Timestamp
+2018-06-02 12:59:04,552 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 12:59:04,568 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 12:59:16,138 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:16,151 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 12:59:18,665 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:18,670 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 12:59:21,806 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:26,946 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:26,951 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 12:59:27,328 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:27,334 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 12:59:27,839 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 12:59:27,845 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 127, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:04:52,933 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:04:52,933 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:05:27,977 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:05:31,589 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:05:31,598 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:06:28,961 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:06:28,965 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:07:54,022 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:07:54,037 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:08:05,650 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:05,660 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:05,992 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:05,998 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:09,734 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:09,739 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:28,363 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:28,369 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:29,631 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:29,638 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:35,362 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:35,368 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:48,011 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:48,026 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:48,572 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:48,577 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:08:49,115 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:08:49,122 - ERROR - _server : 411 - Exception iterating responses: time data '2' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 128, in _prophet
+    outlierDate = datetime.strptime(outlier, "%Y-%m-%d").date()
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "c:\users\ckg\appdata\local\continuum\anaconda3\Lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2' does not match format '%Y-%m-%d'
+2018-06-02 13:10:05,593 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:10:05,593 - INFO - __main__ : 278 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:10:45,118 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:12:45,387 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:07,798 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:09,670 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:10,989 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:14,400 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:16,059 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:19,952 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:13:55,763 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:14:03,641 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:14:04,312 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:16:10,000 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:16:25,505 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:16:35,655 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:16:36,213 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:18:53,949 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:19:54,150 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:19:54,158 - INFO - __main__ : 278 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:20:13,656 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:20:13,664 - ERROR - _server : 411 - Exception iterating responses: <class 'datetime.date'> type object 2013-10-01
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 130, in _prophet
+    dataFrame.loc[(dataFrame['ds'] > outlierDate) & (dataFrame['ds'] < outlierDate), 'y'] = None
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1201, in wrapper
+    pd.DatetimeIndex)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\ops.py", line 1098, in dispatch_to_index_op
+    result = op(left_idx, right)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\datetimes.py", line 133, in wrapper
+    (type(other), str(other)))
+TypeError: <class 'datetime.date'> type object 2013-10-01
+2018-06-02 13:22:17,520 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:22:17,531 - INFO - __main__ : 278 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:22:28,254 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:23:01,633 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:23:05,324 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:23:06,546 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:23:07,858 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:23:09,176 - INFO - __main__ : 218 - ExecuteFunction (functionId: 0)
+2018-06-02 13:26:09,141 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:26:09,164 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:26:18,955 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:01,105 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:28:01,114 - INFO - __main__ : 277 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:28:27,528 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:27,566 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 135, in _prophet
+    m.fit(finalDataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+TypeError: 'NoneType' object is not subscriptable
+2018-06-02 13:28:48,003 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:48,021 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 135, in _prophet
+    m.fit(finalDataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+TypeError: 'NoneType' object is not subscriptable
+2018-06-02 13:28:49,914 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:49,956 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 135, in _prophet
+    m.fit(finalDataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+TypeError: 'NoneType' object is not subscriptable
+2018-06-02 13:28:52,464 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:52,528 - ERROR - _server : 411 - Exception iterating responses: local variable 'finalDataFrame' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 130, in _prophet
+    print(finalDataFrame)
+UnboundLocalError: local variable 'finalDataFrame' referenced before assignment
+2018-06-02 13:28:55,477 - INFO - __main__ : 217 - ExecuteFunction (functionId: 0)
+2018-06-02 13:28:55,545 - ERROR - _server : 411 - Exception iterating responses: local variable 'finalDataFrame' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 130, in _prophet
+    print(finalDataFrame)
+UnboundLocalError: local variable 'finalDataFrame' referenced before assignment
+2018-06-02 13:35:51,078 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:35:51,086 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:36:15,168 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:36:26,636 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:36:50,860 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:36:51,957 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:36:53,400 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:36:55,044 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:37:12,879 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:37:23,703 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:37:27,682 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:38:07,889 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:38:08,987 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:38:10,002 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:38:11,316 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:38:12,755 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:39:54,382 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:39:54,392 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:40:05,595 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:40:05,629 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 134, in _prophet
+    m.fit(fitDataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+TypeError: 'NoneType' object is not subscriptable
+2018-06-02 13:40:07,308 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:40:07,336 - ERROR - _server : 411 - Exception iterating responses: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 134, in _prophet
+    m.fit(fitDataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+TypeError: 'NoneType' object is not subscriptable
+2018-06-02 13:40:47,590 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 13:40:47,598 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 13:40:59,176 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:21,265 - INFO - __main__ : 178 - GetCapabilities
+2018-06-02 13:41:21,266 - INFO - __main__ : 201 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'outliers'])
+2018-06-02 13:41:25,502 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:37,204 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:48,611 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:52,395 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:52,949 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:53,824 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:54,495 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:55,623 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:41:56,390 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:42:13,837 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:49:49,551 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:35,921 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:40,525 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:41,313 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:42,086 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:43,620 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:50:45,221 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:02,564 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:03,245 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:03,686 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:18,427 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:35,789 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:43,023 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:51,410 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:51:52,736 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:03,008 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:04,807 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:05,940 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:18,878 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:33,962 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:52:57,488 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:54:00,659 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:54:46,365 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:03,541 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:13,782 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:22,187 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:26,564 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:28,950 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:30,070 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:55:56,070 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:00,398 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:06,984 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:08,736 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:09,964 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:10,732 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:12,372 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:56:23,283 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:59:05,178 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 13:59:55,370 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:11,744 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:16,584 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:34,321 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:42,646 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:44,517 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:46,053 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:50,540 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:54,880 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:00:59,208 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:18,393 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:19,607 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:21,616 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:25,165 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:27,242 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:01:47,081 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:03:18,291 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 14:03:18,301 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 14:03:51,534 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:03:58,659 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:04:26,633 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:04:34,070 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:04:45,672 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:05:33,329 - INFO - __main__ : 43 - Logging enabled
+2018-06-02 14:05:33,337 - INFO - __main__ : 276 - *** Running server in insecure mode on port: 50066 ***
+2018-06-02 14:06:59,092 - INFO - __main__ : 178 - GetCapabilities
+2018-06-02 14:06:59,093 - INFO - __main__ : 201 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'outliers'])
+2018-06-02 14:07:03,405 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:07:09,955 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:07:29,282 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)
+2018-06-02 14:07:39,849 - INFO - __main__ : 216 - ExecuteFunction (functionId: 0)

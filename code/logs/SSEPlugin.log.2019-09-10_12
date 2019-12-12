@@ -1,0 +1,158 @@
+2019-09-10 12:23:53,458 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:24:00,734 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:51:37,880 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:51:58,195 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:51:58,257 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 12:51:58,265 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:51:58,337 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 12:52:06,955 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:53:43,808 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:57:37,248 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 12:59:26,808 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:01:11,323 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:01:11,446 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 13:01:11,448 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:01:11,574 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 13:01:21,062 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:02:23,695 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:03:24,487 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:03:24,547 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 13:03:24,548 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:03:24,602 - ERROR - _server : 462 - Exception iterating responses: [Errno 13] Permission denied: '.\\df.csv'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 262, in _prophet
+    dataFrame.to_csv(r'.\df.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: '.\\df.csv'
+2019-09-10 13:04:32,496 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:05:34,272 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:06:30,152 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:06:30,168 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:06:30,170 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:06:30,184 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:06:50,180 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:06:50,233 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:06:50,235 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:06:50,296 - ERROR - _server : 462 - Exception iterating responses: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 278, in _prophet
+    #maxDate = dataFrame.iloc[-1]['ds']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+2019-09-10 13:07:21,469 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:09:29,434 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:09:38,091 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:10:05,980 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:11:31,826 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:11:56,788 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)
+2019-09-10 13:18:41,943 - INFO - __main__ : 412 - ExecuteFunction (functionId: 0)

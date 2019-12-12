@@ -1,0 +1,16 @@
+2018-04-30 12:48:59,751 - INFO - __main__ : 44 - Logging enabled
+2018-04-30 12:48:59,767 - INFO - __main__ : 370 - *** Running server in insecure mode on port: 50055 ***
+2018-04-30 12:49:48,610 - INFO - __main__ : 272 - GetCapabilities
+2018-04-30 12:49:48,611 - INFO - __main__ : 295 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-04-30 12:49:48,611 - INFO - __main__ : 295 - Adding to capabilities: SentimentScript(['id', 'text'])
+2018-04-30 12:49:48,612 - INFO - __main__ : 295 - Adding to capabilities: CleanTweet(['text'])
+2018-04-30 12:49:48,612 - INFO - __main__ : 295 - Adding to capabilities: CleanTweetScript(['id', 'text'])
+2018-04-30 12:50:22,718 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-04-30 13:41:01,195 - INFO - __main__ : 44 - Logging enabled
+2018-04-30 13:41:01,195 - INFO - __main__ : 370 - *** Running server in insecure mode on port: 50055 ***
+2018-04-30 13:41:48,613 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-04-30 13:41:48,615 - INFO - __main__ : 129 - <grpc._server._RequestIterator object at 0x0000029D1039CC88>
+2018-04-30 13:43:16,183 - INFO - __main__ : 44 - Logging enabled
+2018-04-30 13:43:16,187 - INFO - __main__ : 370 - *** Running server in insecure mode on port: 50055 ***
+2018-04-30 13:43:48,587 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-04-30 13:43:48,588 - INFO - __main__ : 129 - <grpc._server._RequestIterator object at 0x00000124C425ECC0>

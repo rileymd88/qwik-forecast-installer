@@ -1,0 +1,224 @@
+2018-02-28 10:33:58,537 - INFO - __main__ : 44 - Logging enabled
+2018-02-28 10:33:58,551 - INFO - __main__ : 370 - *** Running server in insecure mode on port: 50089 ***
+2018-02-28 10:34:20,345 - INFO - __main__ : 272 - GetCapabilities
+2018-02-28 10:34:20,345 - INFO - __main__ : 295 - Adding to capabilities: Sentiment(['score', 'text'])
+2018-02-28 10:34:20,345 - INFO - __main__ : 295 - Adding to capabilities: SentimentScript(['id', 'text'])
+2018-02-28 10:34:20,345 - INFO - __main__ : 295 - Adding to capabilities: CleanTweet(['text'])
+2018-02-28 10:34:20,345 - INFO - __main__ : 295 - Adding to capabilities: CleanTweetScript(['id', 'text'])
+2018-02-28 10:35:59,110 - INFO - scripteval : 31 - EvaluateScript: 
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+ (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2018-02-28 10:35:59,110 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 68, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2018-02-28 10:36:16,813 - INFO - scripteval : 31 - EvaluateScript: from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2018-02-28 10:36:16,813 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 68, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2018-02-28 10:36:50,597 - INFO - scripteval : 31 - EvaluateScript: from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:36:51,504 - ERROR - _server : 396 - Exception iterating responses: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+       ^
+SyntaxError: invalid syntax
+2018-02-28 10:37:40,429 - INFO - scripteval : 31 - EvaluateScript: import requests (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:37:40,748 - ERROR - _server : 396 - Exception iterating responses: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    import requests
+         ^
+SyntaxError: invalid syntax
+2018-02-28 10:37:54,899 - INFO - scripteval : 31 - EvaluateScript: hi (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:37:54,915 - ERROR - _server : 396 - Exception iterating responses: name 'hi' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name 'hi' is not defined
+2018-02-28 10:38:06,463 - INFO - scripteval : 31 - EvaluateScript: str(hi) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:38:06,479 - ERROR - _server : 396 - Exception iterating responses: name 'hi' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name 'hi' is not defined
+2018-02-28 10:38:21,042 - INFO - scripteval : 31 - EvaluateScript:  (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:38:21,073 - ERROR - _server : 396 - Exception iterating responses: unexpected EOF while parsing (<string>, line 0)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+2018-02-28 10:38:35,277 - INFO - scripteval : 31 - EvaluateScript:  (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:38:35,399 - ERROR - _server : 396 - Exception iterating responses: unexpected EOF while parsing (<string>, line 0)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+2018-02-28 10:38:50,388 - INFO - scripteval : 31 - EvaluateScript: str("hi") (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:39:07,405 - INFO - scripteval : 31 - EvaluateScript: str([args[0]) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:39:07,451 - ERROR - _server : 396 - Exception iterating responses: unexpected EOF while parsing (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    str([args[0])
+                ^
+SyntaxError: unexpected EOF while parsing
+2018-02-28 10:39:38,984 - INFO - scripteval : 31 - EvaluateScript: str(args[0]) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:40:56,269 - INFO - scripteval : 31 - EvaluateScript: str(analyser.polarity_scores(str(args[0]))) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:40:56,373 - ERROR - _server : 396 - Exception iterating responses: name 'analyser' is not defined
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1, in <module>
+NameError: name 'analyser' is not defined
+2018-02-28 10:41:34,176 - INFO - scripteval : 31 - EvaluateScript: str(args[0]) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:41:45,364 - INFO - scripteval : 31 - EvaluateScript: str(args[0]) (ArgType.Numeric ReturnType.Numeric) FunctionType.Tensor
+2018-02-28 10:41:45,380 - ERROR - _server : 396 - Exception iterating responses: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 68, in EvaluateScript
+    raise grpc.RpcError(grpc.StatusCode.UNIMPLEMENTED, msg)
+grpc.RpcError: (<StatusCode.UNIMPLEMENTED: (12, 'unimplemented')>, 'Argument type: ArgType.Numeric not supported in this plugin.')
+2018-02-28 10:42:01,599 - INFO - scripteval : 31 - EvaluateScript: import requests (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:42:01,646 - ERROR - _server : 396 - Exception iterating responses: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    import requests
+         ^
+SyntaxError: invalid syntax
+2018-02-28 10:45:06,072 - INFO - scripteval : 31 - EvaluateScript: analyser = SentimentIntensityAnalyzer() (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:45:06,145 - ERROR - _server : 396 - Exception iterating responses: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    analyser = SentimentIntensityAnalyzer()
+             ^
+SyntaxError: invalid syntax
+2018-02-28 10:45:48,714 - INFO - scripteval : 31 - EvaluateScript: y = str(args[0]) (ArgType.String ReturnType.String) FunctionType.Tensor
+2018-02-28 10:45:48,745 - ERROR - _server : 396 - Exception iterating responses: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\qservice\Envs\QlikSenseAAI\lib\site-packages\grpc\_server.py", line 389, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 55, in EvaluateScript
+    yield self.evaluate(context, header.script, ret_type, params=params)
+  File "C:\Users\qservice\QlikSenseAAI\Sentiment\scripteval.py", line 166, in evaluate
+    result = eval(script, {'args': params})
+  File "<string>", line 1
+    y = str(args[0])
+      ^
+SyntaxError: invalid syntax
+2018-02-28 11:29:29,581 - INFO - __main__ : 310 - ExecuteFunction (functionId: 3)
+2018-02-28 11:29:31,441 - INFO - __main__ : 310 - ExecuteFunction (functionId: 1)
+2018-02-28 11:32:50,502 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:50,518 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:50,612 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:50,628 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:50,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:50,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,081 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,456 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,472 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,534 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,627 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,644 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,706 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,800 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:32:51,893 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,440 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,503 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,566 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,612 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,691 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,721 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:18,893 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:19,066 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:19,190 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:19,206 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:19,331 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,174 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,268 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,503 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,534 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,596 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,627 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,737 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,768 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,846 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:26,862 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,378 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,456 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,518 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,596 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,643 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,768 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,784 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,862 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,956 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)
+2018-02-28 11:33:30,972 - INFO - __main__ : 310 - ExecuteFunction (functionId: 0)

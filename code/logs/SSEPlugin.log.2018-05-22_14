@@ -1,0 +1,6 @@
+2018-05-22 14:33:28,237 - INFO - __main__ : 45 - Logging enabled
+2018-05-22 14:33:28,250 - INFO - __main__ : 273 - *** Running server in insecure mode on port: 50057 ***
+2018-05-22 14:34:53,952 - INFO - __main__ : 175 - GetCapabilities
+2018-05-22 14:34:53,953 - INFO - __main__ : 198 - Adding to capabilities: ScrapingScript(['goals', 'playerName', 'playerTeam'])
+2018-05-22 14:35:17,572 - INFO - __main__ : 213 - ExecuteFunction (functionId: 0)
+2018-05-22 14:35:20,761 - INFO - __main__ : 213 - ExecuteFunction (functionId: 0)

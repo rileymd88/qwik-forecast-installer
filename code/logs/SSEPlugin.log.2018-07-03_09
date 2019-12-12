@@ -1,0 +1,12 @@
+2018-07-03 09:45:06,968 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-03 09:45:06,988 - ERROR - _server : 411 - Exception iterating responses: year 39346 is out of range
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 104, in _prophet
+    pythonDate = datetime.fromordinal(datetime(1900, 1, 1).toordinal() + int(dateStamps) - 2)
+ValueError: year 39346 is out of range
+2018-07-03 10:03:13,403 - INFO - __main__ : 43 - Logging enabled
+2018-07-03 10:03:13,497 - INFO - __main__ : 299 - *** Running server in insecure mode on port: 50066 ***
+2018-07-03 10:08:23,534 - INFO - __main__ : 201 - GetCapabilities
+2018-07-03 10:08:23,550 - INFO - __main__ : 224 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])

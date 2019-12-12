@@ -1,0 +1,302 @@
+2018-06-01 10:56:57,118 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 10:56:57,118 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50057 ***
+2018-06-01 10:59:58,897 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 10:59:58,913 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:00:42,799 - INFO - __main__ : 147 - GetCapabilities
+2018-06-01 11:00:42,800 - INFO - __main__ : 170 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-01 11:01:54,024 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-06-01 11:01:54,065 - ERROR - _server : 411 - Exception iterating responses: name 'forecastYears' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 114, in _prophet
+    dataFrame.drop(dataFrame.tail(forecastYears).index, inplace=True)
+NameError: name 'forecastYears' is not defined
+2018-06-01 11:03:06,015 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:03:06,018 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:03:34,200 - INFO - __main__ : 147 - GetCapabilities
+2018-06-01 11:03:34,201 - INFO - __main__ : 170 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-01 11:03:38,294 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2018-06-01 11:03:38,472 - ERROR - _server : 411 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 119, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2018-06-01 11:06:36,266 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:06:36,282 - INFO - __main__ : 247 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:06:53,961 - INFO - __main__ : 187 - ExecuteFunction (functionId: 0)
+2018-06-01 11:06:54,152 - ERROR - _server : 411 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2018-06-01 11:08:59,699 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:08:59,699 - INFO - __main__ : 247 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:09:12,022 - INFO - __main__ : 187 - ExecuteFunction (functionId: 0)
+2018-06-01 11:09:12,113 - ERROR - _server : 411 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2018-06-01 11:09:54,689 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:09:54,689 - INFO - __main__ : 247 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:10:00,302 - INFO - __main__ : 149 - GetCapabilities
+2018-06-01 11:10:00,303 - INFO - __main__ : 172 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-01 11:10:01,524 - INFO - __main__ : 187 - ExecuteFunction (functionId: 0)
+2018-06-01 11:10:01,741 - ERROR - _server : 411 - Exception iterating responses: 'y'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 121, in _prophet
+    m.fit(dataFrame)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\fbprophet\forecaster.py", line 773, in fit
+    history = df[df['y'].notnull()].copy()
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2685, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\frame.py", line 2692, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\generic.py", line 2486, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\pandas\core\indexes\base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\_libs\index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+2018-06-01 11:11:02,833 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:11:02,849 - INFO - __main__ : 247 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:11:09,559 - INFO - __main__ : 187 - ExecuteFunction (functionId: 0)
+2018-06-01 11:11:11,586 - ERROR - _server : 411 - Exception iterating responses: 'yhat' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 132, in _prophet
+    duals = iter([[SSE.Dual(numData=d)] for d in finalList])
+  File "__main__.py", line 132, in <listcomp>
+    duals = iter([[SSE.Dual(numData=d)] for d in finalList])
+TypeError: 'yhat' has type str, but expected one of: int, long, float
+2018-06-01 11:14:43,431 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:14:43,447 - INFO - __main__ : 252 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:14:50,286 - INFO - __main__ : 192 - ExecuteFunction (functionId: 0)
+2018-06-01 11:14:52,396 - ERROR - _server : 411 - Exception iterating responses: could not convert string to float: 'yhat'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 134, in _prophet
+    finalList.append(float(yhat))
+ValueError: could not convert string to float: 'yhat'
+2018-06-01 11:24:20,216 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:24:20,226 - INFO - __main__ : 253 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:24:29,709 - INFO - __main__ : 193 - ExecuteFunction (functionId: 0)
+2018-06-01 11:24:31,820 - ERROR - _server : 411 - Exception iterating responses: could not convert string to float: 'yhat'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 135, in _prophet
+    finalList.append(float(yhat))
+ValueError: could not convert string to float: 'yhat'
+2018-06-01 11:26:36,842 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:26:36,851 - INFO - __main__ : 254 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:26:42,511 - INFO - __main__ : 194 - ExecuteFunction (functionId: 0)
+2018-06-01 11:26:44,899 - ERROR - _server : 411 - Exception iterating responses: invalid literal for int() with base 10: 'yhat'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 136, in _prophet
+    finalList.append(int(yhat))
+ValueError: invalid literal for int() with base 10: 'yhat'
+2018-06-01 11:46:00,130 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:46:00,145 - INFO - __main__ : 259 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:46:09,391 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 11:50:34,601 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:50:34,601 - INFO - __main__ : 260 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:50:55,839 - INFO - __main__ : 200 - ExecuteFunction (functionId: 0)
+2018-06-01 11:55:20,454 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:55:20,454 - INFO - __main__ : 254 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:55:38,735 - INFO - __main__ : 194 - ExecuteFunction (functionId: 0)
+2018-06-01 11:57:44,555 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 11:57:44,555 - INFO - __main__ : 253 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 11:58:03,176 - INFO - __main__ : 193 - ExecuteFunction (functionId: 0)
+2018-06-01 11:58:04,960 - ERROR - _server : 411 - Exception iterating responses: 'yhat' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 138, in _prophet
+    duals = iter([[SSE.Dual(numData=d)] for d in forecastList])
+  File "__main__.py", line 138, in <listcomp>
+    duals = iter([[SSE.Dual(numData=d)] for d in forecastList])
+TypeError: 'yhat' has type str, but expected one of: int, long, float
+2018-06-01 12:01:26,218 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:01:26,233 - INFO - __main__ : 259 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:01:42,164 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:04:52,157 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:04:52,172 - INFO - __main__ : 259 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:05:04,532 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:16:36,210 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:16:36,212 - INFO - __main__ : 255 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:16:50,067 - INFO - __main__ : 195 - ExecuteFunction (functionId: 0)
+2018-06-01 12:18:43,550 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:18:43,560 - INFO - __main__ : 254 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:18:55,334 - INFO - __main__ : 194 - ExecuteFunction (functionId: 0)
+2018-06-01 12:18:57,314 - ERROR - _server : 411 - Exception iterating responses: [17383241.578707073] has type list, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 139, in _prophet
+    duals = iter([[SSE.Dual(numData=d)] for d in forecastList])
+  File "__main__.py", line 139, in <listcomp>
+    duals = iter([[SSE.Dual(numData=d)] for d in forecastList])
+TypeError: [17383241.578707073] has type list, but expected one of: int, long, float
+2018-06-01 12:20:16,583 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:20:16,599 - INFO - __main__ : 254 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:20:54,941 - INFO - __main__ : 194 - ExecuteFunction (functionId: 0)
+2018-06-01 12:22:35,655 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:22:35,671 - INFO - __main__ : 259 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:23:05,733 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:26:15,634 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:28:40,122 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:29:08,810 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:30:48,222 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:30:48,238 - INFO - __main__ : 259 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:31:27,080 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:32:13,208 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:33:10,288 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:36:36,243 - INFO - __main__ : 199 - ExecuteFunction (functionId: 0)
+2018-06-01 12:41:16,124 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:41:16,145 - INFO - __main__ : 263 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:41:31,196 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:41:31,198 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:41:35,917 - ERROR - _server : 411 - Exception iterating responses: bad operand type for unary +: 'list'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 145, in _prophet
+    dfList =+ resultsList
+TypeError: bad operand type for unary +: 'list'
+2018-06-01 12:41:35,948 - ERROR - _server : 411 - Exception iterating responses: bad operand type for unary +: 'list'
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\Prophet\lib\site-packages\grpc\_server.py", line 401, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 145, in _prophet
+    dfList =+ resultsList
+TypeError: bad operand type for unary +: 'list'
+2018-06-01 12:43:24,655 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:43:24,655 - INFO - __main__ : 263 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:43:46,777 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:43:46,778 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:43:52,569 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:44:45,371 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:44:45,374 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:45:26,470 - INFO - __main__ : 43 - Logging enabled
+2018-06-01 12:45:26,479 - INFO - __main__ : 263 - *** Running server in insecure mode on port: 50066 ***
+2018-06-01 12:45:46,065 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:45:46,066 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:46:39,001 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:46:48,744 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:47:12,202 - INFO - __main__ : 165 - GetCapabilities
+2018-06-01 12:47:12,202 - INFO - __main__ : 188 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod'])
+2018-06-01 12:47:21,126 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:47:23,651 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:52:15,968 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)
+2018-06-01 12:52:15,977 - INFO - __main__ : 203 - ExecuteFunction (functionId: 0)

@@ -1,0 +1,7 @@
+2018-07-20 13:12:41,623 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-20 13:27:26,131 - INFO - __main__ : 201 - GetCapabilities
+2018-07-20 13:27:26,140 - INFO - __main__ : 224 - Adding to capabilities: Prophet(['dateStamp', 'figures', 'forecastPeriod', 'forecastType', 'outliers'])
+2018-07-20 13:27:34,441 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-20 13:28:37,732 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-20 13:31:48,962 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)
+2018-07-20 13:39:53,842 - INFO - __main__ : 239 - ExecuteFunction (functionId: 0)

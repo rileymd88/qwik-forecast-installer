@@ -1,0 +1,8 @@
+2018-08-28 14:54:32,523 - INFO - __main__ : 44 - Logging enabled
+2018-08-28 14:54:32,564 - INFO - __main__ : 433 - *** Running server in insecure mode on port: 50066 ***
+2018-08-28 14:56:24,889 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-28 14:56:27,937 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-28 14:56:53,190 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-28 14:56:53,202 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-28 15:01:09,858 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
+2018-08-28 15:01:13,399 - INFO - __main__ : 373 - ExecuteFunction (functionId: 0)
