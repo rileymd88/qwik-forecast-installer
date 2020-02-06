@@ -1,0 +1,1 @@
+cd code/gui/nssm/win64 && nssm install "%1" %2 && net start "%1"
